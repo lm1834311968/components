@@ -1,4 +1,4 @@
-# bk
+# components
 
 > A Vue.js project
 
