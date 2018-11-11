@@ -1,6 +1,6 @@
 
-//const IP='/api';
-const IP='/dist/static/mock';
+const IP='/api';
+//const IP='/dist/static/mock';
 
   export default
   {
