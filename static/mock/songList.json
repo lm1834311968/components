@@ -1,0 +1,5127 @@
+{
+	"data": [
+		{
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382242",
+			"type": 0,
+			"duration": 205321,
+			"alias": [
+				"《上新了·故宫》同名主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321382242,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74150687,
+				"name": "上新了·故宫",
+				"picUrl": "http://p1.music.126.net/bUw0U4kkOdCkKy85ir_c9Q==/109951163635110634.jpg",
+				"url": "http://www.minlu.shop:8080/music/Rg0DAFT7D-OAYNBXAFdNb9-h8b0642.mp3",
+
+				"author": "邓伦",
+				"tns": [],
+				"pic_str": "109951163635110634",
+				"pic": 109951163635110634
+			},
+			"artists": [
+				{
+					"id": 12440042,
+					"name": "邓伦",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "上新了·故宫",
+			"id": 1321382242
+		}, {
+			"status": 0,
+			"publishTime": 1532275200000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1295826543",
+			"type": 0,
+			"duration": 201769,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1295826543,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 71901555,
+				"name": "Gangsta Gangsta (Dr. Fresch Remix)",
+				"picUrl": "http://p1.music.126.net/FaLVGn-D5mDRTV5hMYYWbQ==/109951163420840010.jpg",
+				"url": "http://www.minlu.shop:8080/music/dZQEAFvGGduANmzGAEQsL9K9TKA693.mp3",
+				"author": "мавлан музыка",
+				"tns": [],
+				"pic_str": "109951163420840010",
+				"pic": 109951163420840010
+			},
+			"artists": [
+				{
+					"id": 12606574,
+					"name": "мавлан музыка",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Gangsta Gangsta (Dr. Fresch Remix)",
+			"id": 1295826543,
+			"lastRank": 85
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382274",
+			"type": 0,
+			"duration": 240453,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 2,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321382274,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74150715,
+				"name": "纯粹",
+				"picUrl": "http://p1.music.126.net/NvLtgKdJO8OVSzrMzHzsVQ==/109951163635541730.jpg",
+				"tns": [],
+				"pic_str": "109951163635541730",
+				"pic": 109951163635541730
+			},
+			"artists": [
+				{
+					"id": 12037181,
+					"name": "徐海俏",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "纯粹",
+			"id": 1321382274
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 1399823,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382275",
+			"type": 0,
+			"duration": 221989,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321382275,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74151701,
+				"name": "别BB",
+				"picUrl": "http://p1.music.126.net/dg6zHRdgKAa76j16XnrATw==/109951163636160228.jpg",
+				"tns": [],
+				"pic_str": "109951163636160228",
+				"pic": 109951163636160228
+			},
+			"artists": [
+				{
+					"id": 12191014,
+					"name": "CNBALLER",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "别BB",
+			"id": 1321382275
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382259",
+			"type": 0,
+			"duration": 216967,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321382259,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74151688,
+				"name": "The Fire",
+				"picUrl": "http://p1.music.126.net/_EF4t81h51SAavjuQCBT8Q==/109951163635335357.jpg",
+				"tns": [],
+				"pic_str": "109951163635335357",
+				"pic": 109951163635335357
+			},
+			"artists": [
+				{
+					"id": 166018,
+					"name": "吉克隽逸",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "The Fire",
+			"id": 1321382259
+		}, {
+			"status": 0,
+			"publishTime": 1538323200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 1382818,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1313052711",
+			"type": 0,
+			"duration": 217272,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1313052711,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73471022,
+				"name": "失忆",
+				"picUrl": "http://p1.music.126.net/RrrkSWotPZteJL5AjOdbiw==/109951163575368971.jpg",
+				"tns": [],
+				"pic_str": "109951163575368971",
+				"pic": 109951163575368971
+			},
+			"artists": [
+				{
+					"id": 12227547,
+					"name": "刘崇健",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 30217240,
+					"name": "图小图",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": " 失忆 ",
+			"id": 1313052711
+		}, {
+			"status": 0,
+			"publishTime": 1533484800000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 2,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1299595170",
+			"type": 0,
+			"duration": 265522,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 2,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1299595170,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74035792,
+				"name": "无归期",
+				"picUrl": "http://p1.music.126.net/pJyzfRiq4MgXUjbdfcOHgg==/109951163620819102.jpg",
+				"tns": [],
+				"pic_str": "109951163620819102",
+				"pic": 109951163620819102
+			},
+			"artists": [
+				{
+					"id": 12496616,
+					"name": "南游记乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "空欢喜",
+			"id": 1299595170
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 636011,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321424209",
+			"type": 0,
+			"duration": 203770,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321424209,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74150706,
+				"name": "李扯火",
+				"picUrl": "http://p1.music.126.net/71gA0tQWmg-wSFlP0vPLXQ==/109951163635330581.jpg",
+				"tns": [],
+				"pic_str": "109951163635330581",
+				"pic": 109951163635330581
+			},
+			"artists": [
+				{
+					"id": 8791,
+					"name": "李斯丹妮",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "李扯火",
+			"id": 1321424209
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 7001,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1320801398",
+			"type": 0,
+			"duration": 222955,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 132,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1320801398,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74115692,
+				"name": "WASTED SPACE",
+				"picUrl": "http://p1.music.126.net/pwFyIvTe9eY0hVf3S9OwbA==/109951163627760166.jpg",
+				"tns": [],
+				"pic_str": "109951163627760166",
+				"pic": 109951163627760166
+			},
+			"artists": [
+				{
+					"id": 83289,
+					"name": "Underoath",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 1182886,
+					"name": "KAYZO",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "WASTED SPACE",
+			"id": 1320801398
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 7003,
+			"mvid": 10799698,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321733777",
+			"type": 0,
+			"duration": 242703,
+			"alias": [
+				"电影《奔跑吧！T校篮球部》主题曲 / 映画『走れ!T校バスケット部』主題歌"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1321733777,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74176939,
+				"name": "贈る言葉",
+				"picUrl": "http://p1.music.126.net/n2YHvQDlUFK275gbZ70SNQ==/109951163636623400.jpg",
+				"tns": [],
+				"pic_str": "109951163636623400",
+				"pic": 109951163636623400
+			},
+			"artists": [
+				{
+					"id": 19550,
+					"name": "GReeeeN",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "贈る言葉",
+			"id": 1321733777
+		}, {
+			"status": 0,
+			"publishTime": 1526601600000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 665010,
+			"mvid": 10731392,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_562592168",
+			"type": 0,
+			"duration": 183518,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 562592168,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 38984057,
+				"name": "Blah Blah Blah",
+				"picUrl": "http://p1.music.126.net/yRSZH38XUKa_H7z99k0BdQ==/109951163391328888.jpg",
+				"tns": [],
+				"pic_str": "109951163391328888",
+				"pic": 109951163391328888
+			},
+			"artists": [
+				{
+					"id": 27621,
+					"name": "Armin van Buuren",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Blah Blah Blah",
+			"id": 562592168
+		}, {
+			"status": 0,
+			"publishTime": 1538064000007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 10,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1304931036",
+			"type": 0,
+			"duration": 231178,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1304931036,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72603624,
+				"name": "2的奉献--GALA爱爱爱新年音乐会Vol.1",
+				"picUrl": "http://p1.music.126.net/OO59wy9uDFKjmdmb9h2t6A==/109951163512287703.jpg",
+				"tns": [],
+				"pic_str": "109951163512287703",
+				"pic": 109951163512287703
+			},
+			"artists": [
+				{
+					"id": 11679,
+					"name": "GALA",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Young For You",
+			"id": 1304931036
+		}, {
+			"status": 0,
+			"publishTime": 1536624000000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1309211193",
+			"type": 0,
+			"duration": 184946,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1309211193,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73176264,
+				"name": "Super Mario ( мавлан Remix )",
+				"picUrl": "http://p1.music.126.net/0fS0sQ3565JCLKBxawC6WA==/109951163545540379.jpg",
+				"tns": [],
+				"pic_str": "109951163545540379",
+				"pic": 109951163545540379
+			},
+			"artists": [
+				{
+					"id": 12606574,
+					"name": "мавлан музыка",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Super Mario ( мавлан Remix )",
+			"id": 1309211193
+		}, {
+			"status": 0,
+			"publishTime": 1482422400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 11,
+			"score": 100.0,
+			"copyrightId": 7003,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_448157854",
+			"type": 0,
+			"duration": 371718,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 448157854,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35070119,
+				"name": "Live At Madison Square Garden",
+				"picUrl": "http://p1.music.126.net/H1234tdlrq1pmFCU-_S17w==/18779658604065281.jpg",
+				"tns": [],
+				"pic_str": "18779658604065281",
+				"pic": 18779658604065281
+			},
+			"artists": [
+				{
+					"id": 956238,
+					"name": "Shawn Mendes",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Never Be Alone / Hey There Delilah (Live At Madison Square Garden/ 2016 / Medley)",
+			"id": 448157854,
+			"lastRank": 81
+		}, {
+			"status": 0,
+			"publishTime": 1535241600000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 5,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1305379238",
+			"type": 0,
+			"duration": 317570,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1305379238,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72488549,
+				"name": "人格分裂",
+				"picUrl": "http://p1.music.126.net/55ZbXWVNRhxM6BV-ZaDSqQ==/109951163637870456.jpg",
+				"tns": [],
+				"pic_str": "109951163637870456",
+				"pic": 109951163637870456
+			},
+			"artists": [
+				{
+					"id": 1199073,
+					"name": "自由散漫乐团",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "想象",
+			"id": 1305379238
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 457010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382244",
+			"type": 0,
+			"duration": 239800,
+			"alias": [
+				"电影《恋之水滴》&TV动画《京都寺町三条商店街的福尔摩斯》&电影短片《遥远时间，月之光輝》主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 257,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321382244,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74157675,
+				"name": "細雪",
+				"picUrl": "http://p1.music.126.net/KgvXa_Iz55A1Enk4nV9Mow==/109951163635153371.jpg",
+				"tns": [],
+				"pic_str": "109951163635153371",
+				"pic": 109951163635153371
+			},
+			"artists": [
+				{
+					"id": 906077,
+					"name": "和楽器バンド",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "細雪",
+			"id": 1321382244
+		}, {
+			"status": 0,
+			"publishTime": 1540906306574,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321656499",
+			"type": 0,
+			"duration": 272509,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321656499,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74159754,
+				"name": "玻璃",
+				"picUrl": "http://p1.music.126.net/T93IKCy7VOXHFjqTcuoSAw==/109951163635866960.jpg",
+				"tns": [],
+				"pic_str": "109951163635866960",
+				"pic": 109951163635866960
+			},
+			"artists": [
+				{
+					"id": 30476106,
+					"name": "孔诚",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "玻璃",
+			"id": 1321656499
+		}, {
+			"status": 0,
+			"publishTime": 1523548800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 7003,
+			"mvid": 5922020,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_552430314",
+			"type": 0,
+			"duration": 222902,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 552430314,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 38307189,
+				"name": "Better Not",
+				"picUrl": "http://p1.music.126.net/xlAKw3jaHPohgNIXl9V8Tg==/109951163244467054.jpg",
+				"tns": [],
+				"pic_str": "109951163244467054",
+				"pic": 109951163244467054
+			},
+			"artists": [
+				{
+					"id": 1124134,
+					"name": "Louis The Child",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 1178106,
+					"name": "Wafia",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Better Not",
+			"id": 552430314
+		}, {
+			"status": 0,
+			"publishTime": 1528387200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 95.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_571336314",
+			"type": 0,
+			"duration": 340320,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 571336314,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 39590105,
+				"name": "灿若星辰",
+				"picUrl": "http://p1.music.126.net/DqLdXbCIAQ8bcqv50TpgBw==/109951163338116793.jpg",
+				"tns": [],
+				"pic_str": "109951163338116793",
+				"pic": 109951163338116793
+			},
+			"artists": [
+				{
+					"id": 12270,
+					"name": "面孔乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "灿若星辰",
+			"id": 571336314
+		}, {
+			"status": 0,
+			"publishTime": 1528502400000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 2,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_572281960",
+			"type": 0,
+			"duration": 286433,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 572281960,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 39622537,
+				"name": "EA7 Music",
+				"picUrl": "http://p1.music.126.net/--7SydR9u6D9_H__ndvuhw==/109951163432083026.jpg",
+				"tns": [],
+				"pic_str": "109951163432083026",
+				"pic": 109951163432083026
+			},
+			"artists": [
+				{
+					"id": 14020889,
+					"name": "Moici",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 0,
+					"name": "Temper X",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Puta Que Pariu (Andrew Jiraya Remix)",
+			"id": 572281960
+		}, {
+			"status": 0,
+			"publishTime": 1535644800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 90.0,
+			"copyrightId": 729016,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1306534514",
+			"type": 0,
+			"duration": 160000,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1306534514,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72800625,
+				"name": "If We Never",
+				"picUrl": "http://p1.music.126.net/fNEdD11Ld4TVW-fd2KlduA==/109951163526757067.jpg",
+				"tns": [],
+				"pic_str": "109951163526757067",
+				"pic": 109951163526757067
+			},
+			"artists": [
+				{
+					"id": 1137416,
+					"name": "Aiobahn",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12424108,
+					"name": "Vin",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "If We Never",
+			"id": 1306534514
+		}, {
+			"status": 0,
+			"publishTime": 1540483200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 35.0,
+			"copyrightId": 7003,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1320606137",
+			"type": 0,
+			"duration": 178364,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1320606137,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74101068,
+				"name": "Yes Jesus Loves Me (From “Star” Season 3)",
+				"picUrl": "http://p1.music.126.net/aiaL3gGpzF3v6yEqhbe1rg==/109951163626199652.jpg",
+				"tns": [],
+				"pic_str": "109951163626199652",
+				"pic": 109951163626199652
+			},
+			"artists": [
+				{
+					"id": 12214121,
+					"name": "Star Cast",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 29722671,
+					"name": "Miss Lawrence",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Yes Jesus Loves Me (From “Star\" Season 3)",
+			"id": 1320606137
+		}, {
+			"status": 0,
+			"publishTime": 1540951938603,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321751683",
+			"type": 0,
+			"duration": 363000,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 2,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321751683,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74172677,
+				"name": "天地",
+				"picUrl": "http://p1.music.126.net/SqJy1E3ZY8FAzibNBEpjxA==/109951163636763531.jpg",
+				"tns": [],
+				"pic_str": "109951163636763531",
+				"pic": 109951163636763531
+			},
+			"artists": [
+				{
+					"id": 1039314,
+					"name": "叶里",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 7138,
+					"name": "安九",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "天地",
+			"id": 1321751683
+		}, {
+			"status": 0,
+			"publishTime": 1539273600007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 3,
+			"score": 100.0,
+			"copyrightId": 1403820,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1317145254",
+			"type": 0,
+			"duration": 223899,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1317145254,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73468435,
+				"name": "中国音乐公告牌 第六期",
+				"picUrl": "http://p1.music.126.net/PY2FppGbLarJH3iIZelP8A==/109951163599180014.jpg",
+				"tns": [],
+				"pic_str": "109951163599180014",
+				"pic": 109951163599180014
+			},
+			"artists": [
+				{
+					"id": 1079074,
+					"name": "余佳运",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "了解 (Knowing) [Live]",
+			"id": 1317145254
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 729016,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1320566011",
+			"type": 0,
+			"duration": 259764,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1320566011,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74097854,
+				"name": "Tombstone",
+				"picUrl": "http://p1.music.126.net/aEcOQTG9eAHTSr6XoKPapw==/109951163625904591.jpg",
+				"tns": [],
+				"pic_str": "109951163625904591",
+				"pic": 109951163625904591
+			},
+			"artists": [
+				{
+					"id": 725093,
+					"name": "Will Sparks",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 527682,
+					"name": "SCNDL",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Tombstone",
+			"id": 1320566011
+		}, {
+			"status": 0,
+			"publishTime": 1538438400000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1314458568",
+			"type": 0,
+			"duration": 198948,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1314458568,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73708907,
+				"name": "TroyBoi DoYou Exlls ( Remix GHouse )",
+				"picUrl": "http://p1.music.126.net/LF9_Tqlf56oyWKYZsrRViw==/109951163580301660.jpg",
+				"tns": [],
+				"pic_str": "109951163580301660",
+				"pic": 109951163580301660
+			},
+			"artists": [
+				{
+					"id": 13607498,
+					"name": "мавлан музыка",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12606574,
+					"name": "мавлан музыка",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "TroyBoi DoYou Exlls ( Remix GHouse )",
+			"id": 1314458568
+		}, {
+			"status": 0,
+			"publishTime": 1540828800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 530019,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382163",
+			"type": 0,
+			"duration": 313181,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 2,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321382163,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74149655,
+				"name": "寄不出去的情书",
+				"picUrl": "http://p1.music.126.net/fywM5PaRIwD1sd43zY7Wtw==/109951163633529521.jpg",
+				"tns": [],
+				"pic_str": "109951163633529521",
+				"pic": 109951163633529521
+			},
+			"artists": [
+				{
+					"id": 1181775,
+					"name": "翁大涵",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "寄不出去的情书",
+			"id": 1321382163,
+			"lastRank": 7
+		}, {
+			"status": 0,
+			"publishTime": 1484496000007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 3,
+			"score": 100.0,
+			"copyrightId": 1399823,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_453491466",
+			"type": 0,
+			"duration": 225246,
+			"alias": [
+				"2017年内地版《射雕英雄传》插曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 453491466,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35138469,
+				"name": "射雕英雄传 电视原声带",
+				"picUrl": "http://p1.music.126.net/qSxyXrnXiPNVQ8YJD2XejA==/18720284976235092.jpg",
+				"tns": [],
+				"pic_str": "18720284976235092",
+				"pic": 18720284976235092
+			},
+			"artists": [
+				{
+					"id": 4089,
+					"name": "李炜",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "剑魂",
+			"id": 453491466
+		}, {
+			"status": 0,
+			"publishTime": 1530201600000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 85.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_863470743",
+			"type": 0,
+			"duration": 248262,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 863470743,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 71685912,
+				"name": "忧郁的酒馆",
+				"picUrl": "http://p1.music.126.net/BEz0zSJxV1lcl4O9skoBtQ==/109951163381574638.jpg",
+				"tns": [],
+				"pic_str": "109951163381574638",
+				"pic": 109951163381574638
+			},
+			"artists": [
+				{
+					"id": 1048044,
+					"name": "雷米乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "忧郁的酒馆",
+			"id": 863470743
+		}, {
+			"status": 0,
+			"publishTime": 1537286400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 7003,
+			"mvid": 10791021,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1311021714",
+			"type": 0,
+			"duration": 576391,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 0,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1311021714,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73427265,
+				"name": "Venice Bitch",
+				"picUrl": "http://p1.music.126.net/tx43P10eJGCcOKozJi-G7g==/109951163558882984.jpg",
+				"tns": [],
+				"pic_str": "109951163558882984",
+				"pic": 109951163558882984
+			},
+			"artists": [
+				{
+					"id": 66212,
+					"name": "Lana Del Rey",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Venice Bitch",
+			"id": 1311021714
+		}, {
+			"status": 0,
+			"publishTime": 1538668800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 2,
+			"score": 75.0,
+			"copyrightId": 7002,
+			"mvid": 10821050,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1314966504",
+			"type": 0,
+			"duration": 163317,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1314966504,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73755135,
+				"name": "Antipositive, Pt. 2",
+				"picUrl": "http://p1.music.126.net/_80qpig_9atNXbQL-_Bc7Q==/109951163625769013.jpg",
+				"tns": [],
+				"pic_str": "109951163625769013",
+				"pic": 109951163625769013
+			},
+			"artists": [
+				{
+					"id": 840473,
+					"name": "Little Big",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Skibidi",
+			"id": 1314966504
+		}, {
+			"status": 0,
+			"publishTime": 1538092800000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1313354324",
+			"type": 0,
+			"duration": 200388,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1313354324,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73587275,
+				"name": "粥请客（王胜男）",
+				"picUrl": "http://p1.music.126.net/xUAfdMHdXhu3BmO4g8nOYA==/109951163573311341.jpg",
+				"tns": [],
+				"pic_str": "109951163573311341",
+				"pic": 109951163573311341
+			},
+			"artists": [
+				{
+					"id": 8103,
+					"name": "花粥",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 9808,
+					"name": "王胜男",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "出山",
+			"id": 1313354324,
+			"lastRank": 70
+		}, {
+			"status": 0,
+			"publishTime": 1533600000000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1299934634",
+			"type": 0,
+			"duration": 258298,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1299934634,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72167065,
+				"name": "其实都没有（咚鼓）",
+				"picUrl": "http://p1.music.126.net/AFlE07oOTbpejByYZCs6wg==/109951163447391418.jpg",
+				"tns": [],
+				"pic_str": "109951163447391418",
+				"pic": 109951163447391418
+			},
+			"artists": [
+				{
+					"id": 12308673,
+					"name": "北笙",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "其实都没有（咚鼓）",
+			"id": 1299934634
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 663018,
+			"mvid": 10818032,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1318880077",
+			"type": 0,
+			"duration": 195349,
+			"alias": [
+				"火烈鸟"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1318880077,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73985639,
+				"name": "Flamingo / TEENAGE RIOT",
+				"picUrl": "http://p1.music.126.net/QDSZOL1v8plWlppjoPBleQ==/109951163615312145.jpg",
+				"tns": [],
+				"pic_str": "109951163615312145",
+				"pic": 109951163615312145
+			},
+			"artists": [
+				{
+					"id": 159300,
+					"name": "米津玄師",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Flamingo - 试听版",
+			"id": 1318880077
+		}, {
+			"status": 0,
+			"publishTime": 1537113600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 653015,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1307822531",
+			"type": 0,
+			"duration": 253383,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1307822531,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73042577,
+				"name": "浪流连",
+				"picUrl": "http://p1.music.126.net/PVvofEAVcZ01eXdHova7ew==/109951163536396578.jpg",
+				"tns": [],
+				"pic_str": "109951163536396578",
+				"pic": 109951163536396578
+			},
+			"artists": [
+				{
+					"id": 1039873,
+					"name": "茄子蛋",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "浪流连",
+			"id": 1307822531
+		}, {
+			"status": 0,
+			"publishTime": 1538928000007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 4,
+			"score": 100.0,
+			"copyrightId": 760011,
+			"mvid": 10751510,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1300595161",
+			"type": 0,
+			"duration": 276260,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1300595161,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 71855944,
+				"name": "音乐好朋友 第二季",
+				"picUrl": "http://p1.music.126.net/RiZ4XcDcg1Wl4k5Urw10mA==/109951163421331988.jpg",
+				"tns": [],
+				"pic_str": "109951163421331988",
+				"pic": 109951163421331988
+			},
+			"artists": [
+				{
+					"id": 1050282,
+					"name": "房东的猫",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "春风十里 (Live)",
+			"id": 1300595161,
+			"lastRank": 45
+		}, {
+			"status": 0,
+			"publishTime": 1534435200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 90.0,
+			"copyrightId": 7002,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1300528275",
+			"type": 0,
+			"duration": 187689,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1300528275,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72237432,
+				"name": "Sweet but Psycho",
+				"picUrl": "http://p1.music.126.net/95cZrSCHhJ_Vx2AYQHVKmg==/109951163452637657.jpg",
+				"tns": [],
+				"pic_str": "109951163452637657",
+				"pic": 109951163452637657
+			},
+			"artists": [
+				{
+					"id": 14486166,
+					"name": "Ava Max",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Sweet but Psycho",
+			"id": 1300528275
+		}, {
+			"status": 0,
+			"publishTime": 1497024000007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 2,
+			"score": 100.0,
+			"copyrightId": 404023,
+			"mvid": 5559952,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_482988834",
+			"type": 0,
+			"duration": 239985,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 482988834,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35590576,
+				"name": "我想和你唱 第二季 第7期",
+				"picUrl": "http://p1.music.126.net/QFXbRb-OOk-ThxtDyg8fjQ==/18618030395080088.jpg",
+				"tns": [],
+				"pic_str": "18618030395080088",
+				"pic": 18618030395080088
+			},
+			"artists": [
+				{
+					"id": 166010,
+					"name": "梁博",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12492058,
+					"name": "陶孟童",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12463279,
+					"name": "肖和东",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12463280,
+					"name": "高誉容",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "男孩",
+			"id": 482988834
+		}, {
+			"status": 0,
+			"publishTime": 1534262400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1301572067",
+			"type": 0,
+			"duration": 241874,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1301572067,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72299630,
+				"name": "某某",
+				"picUrl": "http://p1.music.126.net/mrZF-lN6ORzHez8Nw6YbGw==/109951163458125171.jpg",
+				"tns": [],
+				"pic_str": "109951163458125171",
+				"pic": 109951163458125171
+			},
+			"artists": [
+				{
+					"id": 12270575,
+					"name": "孟凡明",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "某某",
+			"id": 1301572067
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 36015,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321392257",
+			"type": 0,
+			"duration": 302307,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321392257,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74157704,
+				"name": "万圣节之夜2018",
+				"picUrl": "http://p1.music.126.net/Gv5TrIu3jWsYR3ePrSPTNQ==/109951163636791836.jpg",
+				"tns": [],
+				"pic_str": "109951163636791836",
+				"pic": 109951163636791836
+			},
+			"artists": [
+				{
+					"id": 794014,
+					"name": "SNH48",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "万圣节之夜2018",
+			"id": 1321392257
+		}, {
+			"status": 0,
+			"publishTime": 1540915200000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 563015,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321673670",
+			"type": 0,
+			"duration": 215079,
+			"alias": [
+				"网络剧《双世宠妃2》插曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321673670,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74166309,
+				"name": "一半",
+				"picUrl": "http://p1.music.126.net/m6IRbB-Cd4jm8BUlXRUV-g==/109951163636307562.jpg",
+				"tns": [],
+				"pic_str": "109951163636307562",
+				"pic": 109951163636307562
+			},
+			"artists": [
+				{
+					"id": 5795,
+					"name": "熊汝霖",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "一半",
+			"id": 1321673670
+		}, {
+			"status": 0,
+			"publishTime": 1530835200000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_864629603",
+			"type": 0,
+			"duration": 286667,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 130,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 864629603,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 71739630,
+				"name": "姑娘别回头",
+				"picUrl": "http://p1.music.126.net/qLz8F1kTy0AFvnz9FYHhKQ==/109951163393480260.jpg",
+				"tns": [],
+				"pic_str": "109951163393480260",
+				"pic": 109951163393480260
+			},
+			"artists": [
+				{
+					"id": 12079044,
+					"name": "陈硕子",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "当我要走的时候（合唱版）",
+			"id": 864629603
+		}, {
+			"status": 0,
+			"publishTime": 1062345600000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 20,
+			"score": 100.0,
+			"copyrightId": 684010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_186315",
+			"type": 0,
+			"duration": 188187,
+			"alias": [
+				"1994版台视版《倚天屠龙记》主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 186315,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 18930,
+				"name": "Keep Wakin 1987-2002 周而复始",
+				"picUrl": "http://p1.music.126.net/9gaVeWQX5qewtR_Cb1SctA==/109951163069124807.jpg",
+				"tns": [],
+				"pic_str": "109951163069124807",
+				"pic": 109951163069124807
+			},
+			"artists": [
+				{
+					"id": 6456,
+					"name": "周华健",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "刀剑如梦",
+			"id": 186315
+		}, {
+			"status": 0,
+			"publishTime": 1540966621493,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321782911",
+			"type": 0,
+			"duration": 353093,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321782911,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74169752,
+				"name": "飞狐外传-欢恨无常",
+				"picUrl": "http://p1.music.126.net/_dsjYuoZngxkP_VHqokXcQ==/109951163637072425.jpg",
+				"tns": [],
+				"pic_str": "109951163637072425",
+				"pic": 109951163637072425
+			},
+			"artists": [
+				{
+					"id": 12050022,
+					"name": "裂天",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 7898,
+					"name": "HITA",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "飞狐外传-欢恨无常",
+			"id": 1321782911
+		}, {
+			"status": 0,
+			"publishTime": 1537632000000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1312226912",
+			"type": 0,
+			"duration": 233907,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 130,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1312226912,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73521948,
+				"name": "成人书.越爱越瘦",
+				"picUrl": "http://p1.music.126.net/FZXucgKXMhCdHQ-B1kBFzg==/109951163565214285.jpg",
+				"tns": [],
+				"pic_str": "109951163565214285",
+				"pic": 109951163565214285
+			},
+			"artists": [
+				{
+					"id": 5001,
+					"name": "简弘亦",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "越爱越瘦",
+			"id": 1312226912
+		}, {
+			"status": 0,
+			"publishTime": 1537891200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 663018,
+			"mvid": 10798705,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1311347602",
+			"type": 0,
+			"duration": 249893,
+			"alias": [
+				"TV动画《强风吹拂》ED"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1311347602,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73467802,
+				"name": "リセット",
+				"picUrl": "http://p1.music.126.net/aUnjV-m_qVLknBn0ZNAmjg==/109951163569825341.jpg",
+				"tns": [],
+				"pic_str": "109951163569825341",
+				"pic": 109951163569825341
+			},
+			"artists": [
+				{
+					"id": 12192084,
+					"name": "向井太一",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "リセット",
+			"id": 1311347602
+		}, {
+			"status": 0,
+			"publishTime": 1534089600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 5,
+			"score": 100.0,
+			"copyrightId": 753018,
+			"mvid": 5965135,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_545590356",
+			"type": 0,
+			"duration": 216885,
+			"alias": [
+				"电视剧《香蜜沉沉烬如霜》对唱主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 545590356,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 37548020,
+				"name": "香蜜沉沉烬如霜 电视原声音乐专辑",
+				"picUrl": "http://p1.music.126.net/gEia-o05FSas8uJos54Sug==/109951163456726954.jpg",
+				"tns": [],
+				"pic_str": "109951163456726954",
+				"pic": 109951163456726954
+			},
+			"artists": [
+				{
+					"id": 10368,
+					"name": "杨紫",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12440042,
+					"name": "邓伦",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "天地无霜 (合唱版)",
+			"id": 545590356
+		}, {
+			"status": 0,
+			"publishTime": 1535644800007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 90.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1308818222",
+			"type": 0,
+			"duration": 178755,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1308818222,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72794988,
+				"name": "Glimmer (tofû remix)",
+				"picUrl": "http://p1.music.126.net/CJ5NWd9_7j1de68vHH1y9Q==/109951163546022409.jpg",
+				"tns": [],
+				"pic_str": "109951163546022409",
+				"pic": 109951163546022409
+			},
+			"artists": [
+				{
+					"id": 12068021,
+					"name": "tofû",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Glimmer (tofû remix)",
+			"id": 1308818222
+		}, {
+			"status": 0,
+			"publishTime": 1519284793952,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 80.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_540357901",
+			"type": 0,
+			"duration": 218034,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 540357901,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 37671843,
+				"name": "回忆",
+				"picUrl": "http://p1.music.126.net/iMwSyfx5SBeyfTzMWtw46w==/109951163158605508.jpg",
+				"tns": [],
+				"pic_str": "109951163158605508",
+				"pic": 109951163158605508
+			},
+			"artists": [
+				{
+					"id": 784443,
+					"name": "阿来",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "回忆",
+			"id": 540357901
+		}, {
+			"status": 0,
+			"publishTime": 1540310400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 3,
+			"score": 100.0,
+			"copyrightId": 1415854,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1319689027",
+			"type": 0,
+			"duration": 296993,
+			"alias": [
+				"超级剧集《唐砖》片尾曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1319689027,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74031620,
+				"name": "唐砖 电视歌曲专辑",
+				"picUrl": "http://p1.music.126.net/JN_B7qxetBj2AjgkgkuTzw==/109951163623953910.jpg",
+				"tns": [],
+				"pic_str": "109951163623953910",
+				"pic": 109951163623953910
+			},
+			"artists": [
+				{
+					"id": 7481,
+					"name": "崔子格",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 5001,
+					"name": "简弘亦",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "琴瑟和鸣",
+			"id": 1319689027
+		}, {
+			"status": 0,
+			"publishTime": 1526572800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 5.0,
+			"copyrightId": 7003,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_563733742",
+			"type": 0,
+			"duration": 184111,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 563733742,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 39070136,
+				"name": "Trampoline",
+				"picUrl": "http://p1.music.126.net/nUoeeEP0xoVblUFS2744Ng==/109951163304832763.jpg",
+				"tns": [],
+				"pic_str": "109951163304832763",
+				"pic": 109951163304832763
+			},
+			"artists": [
+				{
+					"id": 12086115,
+					"name": "SHAED",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Trampoline",
+			"id": 563733742
+		}, {
+			"status": 0,
+			"publishTime": 1462702496914,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 5324238,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_163639",
+			"type": 0,
+			"duration": 205000,
+			"alias": [
+				"2001年TVB版《倚天屠龙记》主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 192000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 192000,
+				"id": 163639,
+				"pl": 192000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 16427,
+				"name": "倚天屠龙记剧集原声大碟",
+				"picUrl": "http://p1.music.126.net/GxbALdc4_J78kMmMJSqrMw==/97856534883923.jpg",
+				"tns": [],
+				"pic": 97856534883923
+			},
+			"artists": [
+				{
+					"id": 5446,
+					"name": "吴启华",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "风起云涌",
+			"id": 163639
+		}, {
+			"status": 0,
+			"publishTime": 1540915204313,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321686156",
+			"type": 0,
+			"duration": 324280,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321686156,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74133368,
+				"name": "BLACKLIST 499",
+				"picUrl": "http://p1.music.126.net/jKzEt0XZVLjb93ihgXHqbw==/109951163636243639.jpg",
+				"tns": [],
+				"pic_str": "109951163636243639",
+				"pic": 109951163636243639
+			},
+			"artists": [
+				{
+					"id": 1208044,
+					"name": "David Yandrin",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "BLACKLIST 499",
+			"id": 1321686156
+		}, {
+			"status": 0,
+			"publishTime": 1540441850261,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1320341933",
+			"type": 0,
+			"duration": 237551,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1320341933,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74070884,
+				"name": "一点点",
+				"picUrl": "http://p1.music.126.net/89vNp60d9JaV_mjEdhoteQ==/109951163624176130.jpg",
+				"tns": [],
+				"pic_str": "109951163624176130",
+				"pic": 109951163624176130
+			},
+			"artists": [
+				{
+					"id": 29234325,
+					"name": "lilMoGo",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12760523,
+					"name": "唧唧JIJI",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "一点点",
+			"id": 1320341933,
+			"lastRank": 57
+		}, {
+			"status": 0,
+			"publishTime": 1526400000007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 0,
+			"score": 100.0,
+			"copyrightId": 22036,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_557581967",
+			"type": 0,
+			"duration": 259937,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 557581967,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 38592312,
+				"name": "肆无忌惮",
+				"picUrl": "http://p1.music.126.net/Lq6u2sfvxOAinZ3OM-mMDw==/109951163301562608.jpg",
+				"tns": [],
+				"pic_str": "109951163301562608",
+				"pic": 109951163301562608
+			},
+			"artists": [
+				{
+					"id": 5781,
+					"name": "薛之谦",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "肆无忌惮",
+			"id": 557581967
+		}, {
+			"status": 0,
+			"publishTime": 1505232000007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 1403818,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_505820138",
+			"type": 0,
+			"duration": 259245,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 2,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 505820138,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 36211039,
+				"name": "听说",
+				"picUrl": "http://p1.music.126.net/fHIsIYyut1N658aI0i7KxQ==/109951163024333101.jpg",
+				"tns": [],
+				"pic_str": "109951163024333101",
+				"pic": 109951163024333101
+			},
+			"artists": [
+				{
+					"id": 12634049,
+					"name": "丛铭君",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "听说",
+			"id": 505820138
+		}, {
+			"status": 0,
+			"publishTime": 1537113600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 516010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1298219148",
+			"type": 0,
+			"duration": 176848,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1298219148,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72060222,
+				"name": "你的前男友",
+				"picUrl": "http://p1.music.126.net/-Zb4UsP9p9a8zYwRQjsT1Q==/109951163548175284.jpg",
+				"tns": [],
+				"pic_str": "109951163548175284",
+				"pic": 109951163548175284
+			},
+			"artists": [
+				{
+					"id": 12256364,
+					"name": "Young 7",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "你的前男友",
+			"id": 1298219148
+		}, {
+			"status": 0,
+			"publishTime": 1506528000000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 3,
+			"score": 100.0,
+			"copyrightId": 36016,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_509512457",
+			"type": 0,
+			"duration": 347058,
+			"alias": [
+				"Teens Edge"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 509512457,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 36412383,
+				"name": "吾十有五而志于学",
+				"picUrl": "http://p1.music.126.net/Hv7hvn2lx1wt7Zp0R1y5wg==/109951163032704992.jpg",
+				"tns": [],
+				"pic_str": "109951163032704992",
+				"pic": 109951163032704992
+			},
+			"artists": [
+				{
+					"id": 12676071,
+					"name": "老王乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "我还年轻 我还年轻",
+			"id": 509512457
+		}, {
+			"status": 0,
+			"publishTime": 1532361600000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1296151327",
+			"type": 0,
+			"duration": 197694,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1296151327,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 71965228,
+				"name": "Shahmen - Mark (EMR3YGUL Remix)",
+				"picUrl": "http://p1.music.126.net/9Q_44u86JqOMxnI6gtyHLA==/109951163422982309.jpg",
+				"tns": [],
+				"pic_str": "109951163422982309",
+				"pic": 109951163422982309
+			},
+			"artists": [
+				{
+					"id": 12606574,
+					"name": "мавлан музыка",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Shahmen - Mark (EMR3YGUL Remix)",
+			"id": 1296151327
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 723013,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321392219",
+			"type": 0,
+			"duration": 143169,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321392219,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74150692,
+				"name": "小野猫",
+				"picUrl": "http://p1.music.126.net/XdUbYOsexJBREM-kVEBMSw==/109951163635237651.jpg",
+				"tns": [],
+				"pic_str": "109951163635237651",
+				"pic": 109951163635237651
+			},
+			"artists": [
+				{
+					"id": 804159,
+					"name": "阿力普",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "小野猫",
+			"id": 1321392219
+		}, {
+			"status": 0,
+			"publishTime": 1528214400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 21001,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_571466634",
+			"type": 0,
+			"duration": 289654,
+			"alias": [
+				"失恋留声机活动主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 132,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 571466634,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 39597219,
+				"name": "可能我还爱你",
+				"picUrl": "http://p1.music.126.net/F-oRnXc0YmDvBSjUm4ec8w==/109951163335243366.jpg",
+				"tns": [],
+				"pic_str": "109951163335243366",
+				"pic": 109951163335243366
+			},
+			"artists": [
+				{
+					"id": 5311,
+					"name": "苟瀚中",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "可能我还爱你",
+			"id": 571466634,
+			"lastRank": 92
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 457010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321424160",
+			"type": 0,
+			"duration": 234897,
+			"alias": [
+				"日剧&电影《PRINCE OF LEGEND》插曲：\"Team京极兄弟\"主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321424160,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74151666,
+				"name": "Take On Me",
+				"picUrl": "http://p1.music.126.net/_IgDIUXcylUarxS2Sf0itw==/109951163634897637.jpg",
+				"tns": [],
+				"pic_str": "109951163634897637",
+				"pic": 109951163634897637
+			},
+			"artists": [
+				{
+					"id": 20456,
+					"name": "m-flo",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 30531236,
+					"name": "川村壱馬",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Take On Me",
+			"id": 1321424160
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 7002,
+			"mvid": 10828149,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321232095",
+			"type": 0,
+			"duration": 213916,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1321232095,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74139501,
+				"name": "Only You",
+				"picUrl": "http://p1.music.126.net/RiRh9sp6WBTYEX8xyDIP3w==/109951163635283271.jpg",
+				"tns": [],
+				"pic_str": "109951163635283271",
+				"pic": 109951163635283271
+			},
+			"artists": [
+				{
+					"id": 45081,
+					"name": "Theophilus London",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 102939,
+					"name": "Tame Impala",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Only You",
+			"id": 1321232095
+		}, {
+			"status": 0,
+			"publishTime": 1538150400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 1403818,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1313558186",
+			"type": 0,
+			"duration": 167985,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1313558186,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73468042,
+				"name": "一曲相思",
+				"picUrl": "http://p1.music.126.net/yHRY23bKbLJjjbSnE-T8gA==/109951163575213436.jpg",
+				"tns": [],
+				"pic_str": "109951163575213436",
+				"pic": 109951163575213436
+			},
+			"artists": [
+				{
+					"id": 30405247,
+					"name": "Mc半阳",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "一曲相思 ",
+			"id": 1313558186,
+			"lastRank": 62
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 5.0,
+			"copyrightId": 698013,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1319873783",
+			"type": 0,
+			"duration": 237222,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1319873783,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74024080,
+				"name": "上当",
+				"picUrl": "http://p1.music.126.net/-hgEVHrXkNDaIO43bHdgZQ==/109951163634922412.jpg",
+				"tns": [],
+				"pic_str": "109951163634922412",
+				"pic": 109951163634922412
+			},
+			"artists": [
+				{
+					"id": 12262634,
+					"name": "季彦霖",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "上当",
+			"id": 1319873783
+		}, {
+			"status": 0,
+			"publishTime": 1538150400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 1403818,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1313113351",
+			"type": 0,
+			"duration": 235456,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1313113351,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73480196,
+				"name": "多爱算爱",
+				"picUrl": "http://p1.music.126.net/4R4G53yva-6zCCkUWm7yaA==/109951163573137528.jpg",
+				"tns": [],
+				"pic_str": "109951163573137528",
+				"pic": 109951163573137528
+			},
+			"artists": [
+				{
+					"id": 30024265,
+					"name": "猫咪呀",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "多爱算爱",
+			"id": 1313113351
+		}, {
+			"status": 0,
+			"publishTime": 1540950118269,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321749111",
+			"type": 0,
+			"duration": 233205,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321749111,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74171674,
+				"name": "Time to go",
+				"picUrl": "http://p1.music.126.net/NdH_9Ou4wTAvUwTziI0obA==/109951163636691276.jpg",
+				"tns": [],
+				"pic_str": "109951163636691276",
+				"pic": 109951163636691276
+			},
+			"artists": [
+				{
+					"id": 12236188,
+					"name": "Dk澄",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Time to go",
+			"id": 1321749111
+		}, {
+			"status": 0,
+			"publishTime": 1537977600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 631010,
+			"mvid": 10799410,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1310619662",
+			"type": 0,
+			"duration": 174860,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 260,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1310619662,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73391346,
+				"name": "There's No Way",
+				"picUrl": "http://p1.music.126.net/M4Diw4vPk3I6LNVhRMmi0Q==/109951163554710710.jpg",
+				"tns": [],
+				"pic_str": "109951163554710710",
+				"pic": 109951163554710710
+			},
+			"artists": [
+				{
+					"id": 1057226,
+					"name": "Lauv",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 12097049,
+					"name": "Julia Michaels",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "There's No Way",
+			"id": 1310619662
+		}, {
+			"status": 0,
+			"publishTime": 1352390400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 5,
+			"score": 100.0,
+			"copyrightId": 372013,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_25776043",
+			"type": 0,
+			"duration": 265000,
+			"alias": [
+				"2013版《笑傲江湖》主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 25776043,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 2311003,
+				"name": "新笑傲江湖原声带",
+				"picUrl": "http://p1.music.126.net/QRmGLEyZ6NK92CZAM32z1Q==/2283685650904709.jpg",
+				"tns": [],
+				"pic": 2283685650904709
+			},
+			"artists": [
+				{
+					"id": 3120,
+					"name": "霍建华",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "逍遥",
+			"id": 25776043
+		}, {
+			"status": 0,
+			"publishTime": 1534089600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 7,
+			"score": 100.0,
+			"copyrightId": 753018,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1294899662",
+			"type": 0,
+			"duration": 216885,
+			"alias": [
+				"电视剧《香蜜沉沉烬如霜》插曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1294899662,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 37548020,
+				"name": "香蜜沉沉烬如霜 电视原声音乐专辑",
+				"picUrl": "http://p1.music.126.net/gEia-o05FSas8uJos54Sug==/109951163456726954.jpg",
+				"tns": [],
+				"pic_str": "109951163456726954",
+				"pic": 109951163456726954
+			},
+			"artists": [
+				{
+					"id": 12440042,
+					"name": "邓伦",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "天地无霜",
+			"id": 1294899662
+		}, {
+			"status": 0,
+			"publishTime": 1538928000000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1316479227",
+			"type": 0,
+			"duration": 293677,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1316479227,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73798533,
+				"name": "【星火行动】朝汐（泠鸢&双笙）",
+				"picUrl": "http://p1.music.126.net/yLfVa75LLy0e3cgj4HGYaA==/109951163594033083.jpg",
+				"tns": [],
+				"pic_str": "109951163594033083",
+				"pic": 109951163594033083
+			},
+			"artists": [
+				{
+					"id": 12025552,
+					"name": "双笙",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 1047282,
+					"name": "泠鸢yousa",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "【星火行动】朝汐（泠鸢&双笙）",
+			"id": 1316479227
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 0.0,
+			"copyrightId": 558010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321385241",
+			"type": 0,
+			"duration": 240177,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321385241,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74157691,
+				"name": "一场野迪",
+				"picUrl": "http://p1.music.126.net/Q_REOUlN3WKsU-V7Ce0yyQ==/109951163635409648.jpg",
+				"tns": [],
+				"pic_str": "109951163635409648",
+				"pic": 109951163635409648
+			},
+			"artists": [
+				{
+					"id": 13447409,
+					"name": "ZNZN",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "一场野迪",
+			"id": 1321385241
+		}, {
+			"status": 0,
+			"publishTime": 1539792000000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 95.0,
+			"copyrightId": 650011,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1318489118",
+			"type": 0,
+			"duration": 224726,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1318489118,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73877404,
+				"name": "你的长安满城风雨",
+				"picUrl": "http://p1.music.126.net/ZMeNwVFW--3lHo6PWsCGEA==/109951163611907703.jpg",
+				"tns": [],
+				"pic_str": "109951163611907703",
+				"pic": 109951163611907703
+			},
+			"artists": [
+				{
+					"id": 188694,
+					"name": "蒋家驹（蒋蒋）",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "你的长安满城风雨",
+			"id": 1318489118
+		}, {
+			"status": 0,
+			"publishTime": 1429027200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 2,
+			"score": 100.0,
+			"copyrightId": 636011,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_34179893",
+			"type": 0,
+			"duration": 227027,
+			"alias": [
+				"2014年内地版《神雕侠侣》片头主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 34179893,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 3275171,
+				"name": "拾",
+				"picUrl": "http://p1.music.126.net/YEH2SgJaAdgApGqag62Akg==/109951163077600759.jpg",
+				"tns": [],
+				"pic_str": "109951163077600759",
+				"pic": 109951163077600759
+			},
+			"artists": [
+				{
+					"id": 6472,
+					"name": "张杰",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "浩瀚",
+			"id": 34179893
+		}, {
+			"status": 0,
+			"publishTime": 1539100800007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 0,
+			"score": 95.0,
+			"copyrightId": 700012,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1317420854",
+			"type": 0,
+			"duration": 180239,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1317420854,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73930630,
+				"name": "孤城浪子",
+				"picUrl": "http://p1.music.126.net/YfKI7aZi3CFQxgouG49MCw==/109951163611886557.jpg",
+				"tns": [],
+				"pic_str": "109951163611886557",
+				"pic": 109951163611886557
+			},
+			"artists": [
+				{
+					"id": 29799988,
+					"name": "李雨婷",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "孤城浪子",
+			"id": 1317420854
+		}, {
+			"status": 0,
+			"publishTime": 1540129488573,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 20.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1319478950",
+			"type": 0,
+			"duration": 110960,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1319478950,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74011757,
+				"name": "2 late",
+				"picUrl": "http://p1.music.126.net/Ae0HLaIRpSvIYlFrGEU_hA==/109951163617499581.jpg",
+				"tns": [],
+				"pic_str": "109951163617499581",
+				"pic": 109951163617499581
+			},
+			"artists": [
+				{
+					"id": 13681260,
+					"name": "Young D",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "2 late",
+			"id": 1319478950
+		}, {
+			"status": 0,
+			"publishTime": 1528214400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_571338083",
+			"type": 0,
+			"duration": 228864,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 571338083,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 39591023,
+				"name": "醒着醉",
+				"picUrl": "http://p1.music.126.net/g-tbzhZCU2opvigyB2g_Qg==/109951163334448121.jpg",
+				"tns": [],
+				"pic_str": "109951163334448121",
+				"pic": 109951163334448121
+			},
+			"artists": [
+				{
+					"id": 13609637,
+					"name": "马良",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "醒着醉",
+			"id": 571338083
+		}, {
+			"status": 0,
+			"publishTime": 1485245892038,
+			"fee": 0,
+			"ftype": 0,
+			"no": 3,
+			"score": 95.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_455764583",
+			"type": 0,
+			"duration": 210259,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 455764583,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35146659,
+				"name": "流浪不止是梦里相见",
+				"picUrl": "http://p1.music.126.net/2jKN9ybgcJI695R2Hnk1cA==/109951162849231171.jpg",
+				"tns": [],
+				"pic_str": "109951162849231171",
+				"pic": 109951162849231171
+			},
+			"artists": [
+				{
+					"id": 12275446,
+					"name": "人行道乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "返潮",
+			"id": 455764583
+		}, {
+			"status": 0,
+			"publishTime": 1538236800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 100.0,
+			"copyrightId": 754021,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1313052287",
+			"type": 0,
+			"duration": 173538,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1313052287,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73470917,
+				"name": "放假了",
+				"picUrl": "http://p1.music.126.net/tmrjJ0BTiDEkBaYKkD2vsA==/109951163573447904.jpg",
+				"tns": [],
+				"pic_str": "109951163573447904",
+				"pic": 109951163573447904
+			},
+			"artists": [
+				{
+					"id": 12444454,
+					"name": "董嘉鸿",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "放假了",
+			"id": 1313052287
+		}, {
+			"status": 0,
+			"publishTime": 1448467200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_448741168",
+			"type": 0,
+			"duration": 206053,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 448741168,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35082047,
+				"name": "From Here",
+				"picUrl": "http://p1.music.126.net/BZvwmpm92W2Vo-l8A0bhzA==/18553159208748584.jpg",
+				"tns": [],
+				"pic_str": "18553159208748584",
+				"pic": 18553159208748584
+			},
+			"artists": [
+				{
+					"id": 12244027,
+					"name": "Adib Sin",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 513122,
+					"name": "Cae",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "From Here",
+			"id": 448741168
+		}, {
+			"status": 0,
+			"publishTime": 1540915688892,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321684782",
+			"type": 0,
+			"duration": 156800,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321684782,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74134342,
+				"name": "1ST SWEET PART.1",
+				"picUrl": "http://p1.music.126.net/CAPSrAuucOC_IjW7UZJT8g==/109951163636263138.jpg",
+				"tns": [],
+				"pic_str": "109951163636263138",
+				"pic": 109951163636263138
+			},
+			"artists": [
+				{
+					"id": 12548132,
+					"name": "T.Q",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "拜托",
+			"id": 1321684782
+		}, {
+			"status": 0,
+			"publishTime": 1523289600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 7003,
+			"mvid": 5876126,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_551816010",
+			"type": 0,
+			"duration": 260911,
+			"alias": [
+				"电影《后来的我们》主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 551816010,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 38296010,
+				"name": "我们",
+				"picUrl": "http://p1.music.126.net/Ng7OR-bdgrHQKXzLyj2mGg==/109951163240732641.jpg",
+				"tns": [],
+				"pic_str": "109951163240732641",
+				"pic": 109951163240732641
+			},
+			"artists": [
+				{
+					"id": 2116,
+					"name": "陈奕迅",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "我们",
+			"id": 551816010
+		}, {
+			"status": 0,
+			"publishTime": 1540653925179,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 95.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321043592",
+			"type": 0,
+			"duration": 221535,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321043592,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74126715,
+				"name": "《姑娘》",
+				"picUrl": "http://p1.music.126.net/njyyoWjoJzoFxudx2GhMtg==/109951163636790326.jpg",
+				"tns": [],
+				"pic_str": "109951163636790326",
+				"pic": 109951163636790326
+			},
+			"artists": [
+				{
+					"id": 12780930,
+					"name": "贾凯翔",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "《姑娘》",
+			"id": 1321043592
+		}, {
+			"status": 0,
+			"publishTime": 1539100800007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 663018,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1316562362",
+			"type": 0,
+			"duration": 262176,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1316562362,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73792165,
+				"name": "Katharsis",
+				"picUrl": "http://p1.music.126.net/nopk5XwynOcnysxR8FFaTA==/109951163588723817.jpg",
+				"tns": [],
+				"pic_str": "109951163588723817",
+				"pic": 109951163588723817
+			},
+			"artists": [
+				{
+					"id": 159644,
+					"name": "TK from 凛として時雨",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Katharsis",
+			"id": 1316562362
+		}, {
+			"status": 0,
+			"publishTime": 1498579200007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 0,
+			"score": 100.0,
+			"copyrightId": 456010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_486999661",
+			"type": 0,
+			"duration": 289386,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 2,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 486999661,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35661697,
+				"name": "莫妮卡",
+				"picUrl": "http://p1.music.126.net/0PFBuvIIi3n-U_3qjGwfeg==/18926993160737620.jpg",
+				"tns": [],
+				"pic_str": "18926993160737620",
+				"pic": 18926993160737620
+			},
+			"artists": [
+				{
+					"id": 1060132,
+					"name": "柳爽",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "莫妮卡",
+			"id": 486999661
+		}, {
+			"status": 0,
+			"publishTime": 1407772800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 7001,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_28923455",
+			"type": 0,
+			"duration": 208091,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 28923455,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 2948072,
+				"name": "不是一路人(Demo)",
+				"picUrl": "http://p1.music.126.net/Wty6mk2k3TS4IqwJy1qmFw==/18189220858862905.jpg",
+				"tns": [],
+				"pic_str": "18189220858862905",
+				"pic": 18189220858862905
+			},
+			"artists": [
+				{
+					"id": 11742,
+					"name": "隔壁团乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "路",
+			"id": 28923455
+		}, {
+			"status": 0,
+			"publishTime": 1521043200000,
+			"fee": 0,
+			"ftype": 0,
+			"no": 10,
+			"score": 95.0,
+			"copyrightId": 700010,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_545617042",
+			"type": 0,
+			"duration": 231420,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 545617042,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 72706947,
+				"name": "小怪兽",
+				"picUrl": "http://p1.music.126.net/SDGS4GTc4f-t5zQ3Rq3fpQ==/109951163526515719.jpg",
+				"tns": [],
+				"pic_str": "109951163526515719",
+				"pic": 109951163526515719
+			},
+			"artists": [
+				{
+					"id": 2092,
+					"name": "布衣乐队",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "等不及告别就要出发",
+			"id": 545617042
+		}, {
+			"status": 0,
+			"publishTime": 1528732800007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 22019,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_571336514",
+			"type": 0,
+			"duration": 288648,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 571336514,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 39592148,
+				"name": "还有我",
+				"picUrl": "http://p1.music.126.net/NCSynJFSOUg5nz4Lm1Rdzg==/109951163345888981.jpg",
+				"tns": [],
+				"pic_str": "109951163345888981",
+				"pic": 109951163345888981
+			},
+			"artists": [
+				{
+					"id": 4464,
+					"name": "梁雨",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "还有我",
+			"id": 571336514
+		}, {
+			"status": 0,
+			"publishTime": 1540915200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321424215",
+			"type": 0,
+			"duration": 232093,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321424215,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74151692,
+				"name": "弥憾",
+				"picUrl": "http://p1.music.126.net/I9QNU4BHecxibmCbBINrPg==/109951163635359399.jpg",
+				"tns": [],
+				"pic_str": "109951163635359399",
+				"pic": 109951163635359399
+			},
+			"artists": [
+				{
+					"id": 30528261,
+					"name": "陈冠霖",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "弥憾",
+			"id": 1321424215
+		}, {
+			"status": 0,
+			"publishTime": 1540310400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 90.0,
+			"copyrightId": 1415854,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1319688028",
+			"type": 0,
+			"duration": 247042,
+			"alias": [
+				"超级剧集《唐砖》插曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1319688028,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74031620,
+				"name": "唐砖 电视歌曲专辑",
+				"picUrl": "http://p1.music.126.net/JN_B7qxetBj2AjgkgkuTzw==/109951163623953910.jpg",
+				"tns": [],
+				"pic_str": "109951163623953910",
+				"pic": 109951163623953910
+			},
+			"artists": [
+				{
+					"id": 1025209,
+					"name": "萱萱",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "孤芳",
+			"id": 1319688028
+		}, {
+			"status": 0,
+			"publishTime": 1523462400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 3,
+			"score": 100.0,
+			"copyrightId": 7002,
+			"mvid": 5888115,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_552366521",
+			"type": 0,
+			"duration": 167601,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 4,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 552366521,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 38330482,
+				"name": "COSMIC",
+				"picUrl": "http://p1.music.126.net/mIbrbuMDz9BKdeegRCzHlw==/109951163244338338.jpg",
+				"tns": [],
+				"pic_str": "109951163244338338",
+				"pic": 109951163244338338
+			},
+			"artists": [
+				{
+					"id": 12262073,
+					"name": "Bazzi",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "Myself",
+			"id": 552366521
+		}, {
+			"status": 0,
+			"publishTime": 1540896604543,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 0.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321625916",
+			"type": 0,
+			"duration": 251480,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1321625916,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74157040,
+				"name": "不可归",
+				"picUrl": "http://p1.music.126.net/1v5n1D1M3G4Eax_8pQ-zgw==/109951163635563254.jpg",
+				"tns": [],
+				"pic_str": "109951163635563254",
+				"pic": 109951163635563254
+			},
+			"artists": [
+				{
+					"id": 12731104,
+					"name": "李格",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "不可归（demo）",
+			"id": 1321625916
+		}, {
+			"status": 0,
+			"publishTime": 1502726400007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 26001,
+			"mvid": 10808117,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_479422898",
+			"type": 0,
+			"duration": 280954,
+			"alias": [
+				"电视剧《花甲男孩转大人》主题曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 479422898,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 35543325,
+				"name": "鱼仔",
+				"picUrl": "http://p1.music.126.net/OWnuOmJ7v-h5PMT5BsPGLQ==/18891808788668489.jpg",
+				"tns": [],
+				"pic_str": "18891808788668489",
+				"pic": 18891808788668489
+			},
+			"artists": [
+				{
+					"id": 3690,
+					"name": "卢广仲",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "鱼仔",
+			"id": 479422898
+		}, {
+			"status": 0,
+			"publishTime": 1538928000007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 8,
+			"score": 100.0,
+			"copyrightId": 760011,
+			"mvid": 10778222,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1306507878",
+			"type": 0,
+			"duration": 158542,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1306507878,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 71855944,
+				"name": "音乐好朋友 第二季",
+				"picUrl": "http://p1.music.126.net/RiZ4XcDcg1Wl4k5Urw10mA==/109951163421331988.jpg",
+				"tns": [],
+				"pic_str": "109951163421331988",
+				"pic": 109951163421331988
+			},
+			"artists": [
+				{
+					"id": 188565,
+					"name": "银临",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "醉 (Live)",
+			"id": 1306507878,
+			"lastRank": 79
+		}, {
+			"status": 0,
+			"publishTime": 1540483200007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 663018,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1320097223",
+			"type": 0,
+			"duration": 183500,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1320097223,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74063693,
+				"name": "Future Base",
+				"picUrl": "http://p1.music.126.net/gGAuGAYRY8xXurBACZ70DA==/109951163625926676.jpg",
+				"tns": [],
+				"pic_str": "109951163625926676",
+				"pic": 109951163625926676
+			},
+			"artists": [
+				{
+					"id": 27889701,
+					"name": "Kizuna AI",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "future base",
+			"id": 1320097223
+		}, {
+			"status": 0,
+			"publishTime": 1538841600007,
+			"fee": 8,
+			"ftype": 0,
+			"no": 1,
+			"score": 100.0,
+			"copyrightId": 698013,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1313052290",
+			"type": 0,
+			"duration": 181051,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 256,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1313052290,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 73471944,
+				"name": "镜踪",
+				"picUrl": "http://p1.music.126.net/AdBZByq6TPvWBJV3FxP-eQ==/109951163573462127.jpg",
+				"tns": [],
+				"pic_str": "109951163573462127",
+				"pic": 109951163573462127
+			},
+			"artists": [
+				{
+					"id": 12176360,
+					"name": "刘增瞳",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": " 镜踪 ",
+			"id": 1313052290
+		}, {
+			"status": 0,
+			"publishTime": 1417449600000,
+			"fee": 8,
+			"ftype": 0,
+			"no": 3,
+			"score": 100.0,
+			"copyrightId": 372013,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_29774167",
+			"type": 0,
+			"duration": 285000,
+			"alias": [
+				"2014年内地版《神雕侠侣》插曲"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 0,
+				"subp": 1,
+				"fl": 128000,
+				"fee": 8,
+				"dl": 0,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 29774167,
+				"pl": 128000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 3056950,
+				"name": "神雕侠侣 电视原声带",
+				"picUrl": "http://p1.music.126.net/bw2_dTSCmgkl7vKSAH4kRg==/19143596951396388.jpg",
+				"tns": [],
+				"pic_str": "19143596951396388",
+				"pic": 19143596951396388
+			},
+			"artists": [
+				{
+					"id": 826307,
+					"name": "陈晓",
+					"tns": [],
+					"alias": []
+				}, {
+					"id": 7524,
+					"name": "陈妍希",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "你我",
+			"id": 29774167
+		}, {
+			"status": 0,
+			"publishTime": 1540828800007,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 90.0,
+			"copyrightId": 663018,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321382214",
+			"type": 0,
+			"duration": 302416,
+			"alias": [
+				"日剧《中学圣日记》主题曲 / TBS系ドラマ「中学聖日記」主題歌"
+			],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 320000,
+				"id": 1321382214,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74151665,
+				"name": "プロローグ",
+				"picUrl": "http://p1.music.126.net/iT6O958hdZgfg3JrCrt-FA==/109951163634899629.jpg",
+				"tns": [],
+				"pic_str": "109951163634899629",
+				"pic": 109951163634899629
+			},
+			"artists": [
+				{
+					"id": 12062125,
+					"name": "Uru",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "プロローグ",
+			"id": 1321382214,
+			"lastRank": 35
+		}, {
+			"status": 0,
+			"publishTime": 1540803672419,
+			"fee": 0,
+			"ftype": 0,
+			"no": 1,
+			"score": 20.0,
+			"copyrightId": 0,
+			"mvid": 0,
+			"transNames": null,
+			"commentThreadId": "R_SO_4_1321445637",
+			"type": 0,
+			"duration": 321085,
+			"alias": [],
+			"privilege": {
+				"st": 0,
+				"flag": 128,
+				"subp": 1,
+				"fl": 320000,
+				"fee": 0,
+				"dl": 320000,
+				"cp": 1,
+				"preSell": false,
+				"cs": false,
+				"toast": false,
+				"maxbr": 999000,
+				"id": 1321445637,
+				"pl": 320000,
+				"sp": 7,
+				"payed": 0
+			},
+			"djid": 0,
+			"album": {
+				"id": 74111614,
+				"name": "河图王",
+				"picUrl": "http://p1.music.126.net/0fxV_ZKQAwVPCJ5--exwMw==/109951163633524618.jpg",
+				"tns": [],
+				"pic_str": "109951163633524618",
+				"pic": 109951163633524618
+			},
+			"artists": [
+				{
+					"id": 29234568,
+					"name": "陈亦洺",
+					"tns": [],
+					"alias": []
+				}
+			],
+			"name": "河图王",
+			"id": 1321445637
+		}
+	]
+}
