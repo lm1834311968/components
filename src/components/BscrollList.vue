@@ -1,8 +1,8 @@
 <template>
-	<div ref='repple'>
+	<div ref='repple' class="bscroll">
 		<div>
 			<div :class="loadActive?'load-fresh active':'load-fresh '"><i class="iconfont icon-jiazai"></i></div>
-			<slot name="list"></slot>
+			<slot></slot>
 			<div :class="loadMoreActive?'load-more active':'load-more'"><i class="iconfont icon-jiazai"></i></div>
 		</div>
 	</div>
@@ -23,32 +23,36 @@
 			}
 		},
 		mounted() {
-			this.scroll = new Bscroll(this.$refs.repple);
+			this.scroll = new Bscroll(this.$refs.repple,{click: true});
 			this.scroll.on('touchEnd', this.tocunEnd);
 		},
 		methods: {
 			tocunEnd(pos) {
 				if(pos.y > 50) {
 					this.loadActive = true;
-					this.$emit('listRefresh');/*触发上拉刷新*/
+					this.$emit('listRefresh'); /*触发上拉刷新*/
 				}
 				if(pos.y < this.scroll.maxScrollY + 100) {
 					this.loadMoreActive = true;
-					this.$emit('listLoad');/*触发下拉加载*/
+					this.$emit('listLoad'); /*触发下拉加载*/
 				}
 			}
 		},
 		watch: {
 			loaded() {
 				this.scroll.refresh();
-				this.loadActive = false;/*这是父页面给本页面的上拉提示符*/
-				this.loadMoreActive = false;/*这是父页面给本页面的下拉加载更多提示符*/
+				this.loadActive = false; /*这是父页面给本页面的上拉提示符*/
+				this.loadMoreActive = false; /*这是父页面给本页面的下拉加载更多提示符*/
 			}
 		}
 	}
 </script>
 
 <style lang="less" scoped>
+	.bscroll {
+		overflow: hidden;
+	}
+	
 	.load {
 		display: flex;
 		justify-content: center;

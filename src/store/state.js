@@ -1,5 +1,4 @@
 const state={
-	pageRouter:false,//文章详细页显示
 	favoriteList:[],//喜爱的歌曲
 	songList:[{					//当前播放数据
 				"id": 74150687,

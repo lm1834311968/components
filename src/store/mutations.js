@@ -1,9 +1,6 @@
 import * as types from './mutations-types'
 
 const mutations = {
-	[types.pageRouter](state, pageRouter) {
-		state.pageRouter = pageRouter
-	},
 	[types.favoriteList](state, favoriteList) {
 		state.favoriteList = favoriteList
 	},

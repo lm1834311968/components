@@ -22,7 +22,6 @@
 	import Bscroll from 'better-scroll'
 	import MinAudio from 'components/MinAudio'
 	import MusicLists from 'components/MusicLists'
-	import { mapMutations } from "vuex"
 
 	export default {
 		data() {
@@ -62,7 +61,8 @@
 				this.songLists = res.data.data;
 				this.$nextTick(() => {
 					this.scroll = new Bscroll(this.$refs.repple, {
-						probeType: 3
+						probeType: 3,
+						click:true
 					});
 					this.subTitleTop = this.$refs.subTitle.offsetTop;
 					this.scroll.on('scroll', this.scrolled);
@@ -77,12 +77,8 @@
 				}
 			},
 			searched(){
-				this.setPageRouter(true)
 				this.$router.push({name:"MusicSearch"})
-			},
-			...mapMutations({
-				setPageRouter:"pageRouter"
-			})
+			}
 
 		},
 		components: {

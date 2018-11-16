@@ -1,17 +1,19 @@
 <template>
-	<bscroll class="article-detail" :dataed="articleContent">
+	<div>
 		<back>
 			<div>互联网</div>
 		</back>
-		<div class="detail-content">
-			<h4>{{articleContent.title}}</h4>
-			<div class="subtitle">
-				<span>人民日报</span><span>2小时前</span><span>134(评)</span>
+		<bscroll class="article-detail" :dataed="articleContent">
+			<div class="detail-content">
+				<h4>{{articleContent.title}}</h4>
+				<div class="subtitle">
+					<span>人民日报</span><span>2小时前</span><span>134(评)</span>
+				</div>
+				<div v-html="articleContent.content" class="content">
+				</div>
 			</div>
-			<div v-html="articleContent.content" class="content">
-			</div>
-		</div>
-	</bscroll>
+		</bscroll>
+	</div>
 </template>
 
 <script>
@@ -47,7 +49,7 @@
 	.article-detail {
 		background: #fff;
 		padding: 0.2rem 0;
-		.detail-content{
+		.detail-content {
 			padding-bottom: 0.2rem;
 		}
 		h4 {

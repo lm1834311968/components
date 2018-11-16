@@ -3,7 +3,7 @@
 		<component v-for="(item,index) in navsList" v-if='lazyLoaded(index)' v-show='index==indexNow' :key="index" :is="item.componentName"></component>
 		<navs @changes="changes"></navs>
 		<transition name='right-left'>
-			<router-view class="detail" v-if="pageRouter" />
+			<router-view class="detail"/>
 		</transition>
 	</div>
 </template>
@@ -12,7 +12,6 @@
 	import Navs from 'components/Navs/Navs'
 	import HomePage from 'page/HomePage/HomePage'
 	import MusicPage from 'page/MusicPage/MusicPage'
-	import { mapGetters } from 'vuex'
 
 	export default {
 		data() {
@@ -49,12 +48,6 @@
 					this.indexs.push(false);
 				})
 			}
-		},
-		computed: {
-			...mapGetters([
-				"pageRouter"
-			])
-
 		},
 		components: {
 			Navs,

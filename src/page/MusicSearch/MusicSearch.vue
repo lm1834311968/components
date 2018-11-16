@@ -23,7 +23,6 @@
 	import HistortList from "components/HistortList"
 	import MusicLists from "components/MusicLists"
 	import axios from "axios"
-	import { mapMutations } from "vuex"
 
 	export default {
 		data() {
@@ -63,7 +62,7 @@
 				}
 				this.historyList.unshift(this.searchValue)
 				window.localStorage.setItem("historyList",JSON.stringify(this.historyList))
-				this.setPageRouter(false);
+				this.$router.go(-1);
 			},
 			fastSearched(val){
 				this.searchValue=val;
@@ -72,10 +71,7 @@
 			deleted(index){
 				this.historyList.splice(index,1);
 				window.localStorage.setItem("historyList",JSON.stringify(this.historyList))
-			},
-			...mapMutations({
-				setPageRouter:"pageRouter"
-			})
+			}
 		},
 		computed:{
 			listShow(){

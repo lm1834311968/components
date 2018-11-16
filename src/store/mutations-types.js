@@ -1,4 +1,3 @@
-export const pageRouter='pageRouter';
 export const favoriteList='favoriteList';
 export const songList='songList';
 export const songPlay='songPlay';

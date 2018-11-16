@@ -35,27 +35,31 @@
 		},
 		methods: {
 			choose(songDetail) {
-				if(songDetail.id==this.currentSong.id){
-					this.setSongPlay(!this.songPlay);
-				}
-				this.setCurrentSong(songDetail);
-				let canSet = true;
-				this.songList.forEach((value) => {
-					if(value.id == songDetail.id) {
-						canSet = false;
+				//判断当前歌曲是否为此首歌
+				if(songDetail.id == this.currentSong.id) {
+					let songP = !this.songPlay;
+					this.setSongPlay(songP);
+				} else {
+					this.setCurrentSong(songDetail);
+					let canSet = true;
+					this.songList.forEach((value) => {
+						if(value.id == songDetail.id) {
+							canSet = false;
+						}
+					})
+					if(canSet) {
+						this.playSongList.push(songDetail);
+						this.setSongList(this.playSongList);
 					}
-				})
-				if(canSet) {
-					this.playSongList.push(songDetail);
-					this.setSongList(this.playSongList);
 				}
-				this.$emit('choose',songDetail)
+
+				this.$emit('choose', songDetail)
 			},
 			...mapMutations({
 				setSongList: "songList",
 				setFavoriteList: "favoriteList",
 				setCurrentSong: "currentSong",
-				setSongPlay:"songPlay"
+				setSongPlay: "songPlay"
 			})
 		},
 		computed: {
@@ -126,6 +130,4 @@
 			}
 		}
 	}
-	
-
 </style>

@@ -17,7 +17,7 @@
 			}
 		},
 		mounted() {
-			this.scroll = new Bscroll(this.$refs.repple,{bounce:this.bounce});
+			this.scroll = new Bscroll(this.$refs.repple,{bounce:this.bounce,click: true});
 		},
 		watch: {
 			dataed() {

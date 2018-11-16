@@ -11,21 +11,15 @@
 </template>
 
 <script>
-	import { mapMutations } from "vuex"
 	export default{
 		data(){
 			return {
-				
 			}
 		},
 		methods:{
 			goback() {
-//				this.$router.go(-1);
-				this.setPageRouter(false);
-			},
-		...mapMutations({
-			setPageRouter:"pageRouter"
-		})
+				this.$router.go(-1);
+			}
 		}
 	
 	}

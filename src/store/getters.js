@@ -1,4 +1,3 @@
-export const pageRouter = state => state.pageRouter;
 export const favoriteList = state => state.favoriteList;
 export const songList = state => state.songList;
 export const songPlay = state => state.songPlay;

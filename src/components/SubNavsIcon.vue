@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<ul>
-			<li v-for="(item,index) in navsList" :class="['item',index==nowIndex?'active':'']" :key="item.icon">
+			<li v-for="(item,index) in navsList" :class="['item',index==nowIndex?'active':'']" :key="item.icon" @click="choose(item,index)">
 				<div :class="[item.icon,'iconfont']" :style="{background:item.bgcolor}"></div>
 				<div class="title">{{item.name}}</div>
 			</li>
@@ -16,29 +16,41 @@
 				navsList: [{
 					icon: "icon-yinyue",
 					name: '乐库',
+					code: 'music-all',
 					bgcolor: "#fea736"
 				}, {
 					icon: "icon-vynil",
 					name: '歌单',
+					code: 'music-song',
 					bgcolor: "#2acb9f"
 				}, {
 					icon: "icon-yinle101",
 					name: '电台',
+					code: 'music-broadcast',
 					bgcolor: "#01a1ff"
 				}, {
 					icon: "icon-cainixihuan",
 					name: '猜你喜欢',
+					code: 'music-love',
 					bgcolor: "#e86ee7"
 				}, {
 					icon: "icon-tuijian",
 					name: '每日推荐',
+					code: 'music-recommend',
 					bgcolor: "#ff6364"
 				}, {
 					icon: "icon-gengduo",
-					name: '更多',
+					name: '歌手',
+					code: 'music-singer',
 					bgcolor: "#906dc9"
 				}],
 				nowIndex: 0
+			}
+		},
+		methods:{
+			choose(item,index){
+				this.nowIndex=index;
+				this.$router.push({name:"MusicMore",query:item})
 			}
 		}
 	}

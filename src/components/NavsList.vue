@@ -1,6 +1,6 @@
 <template>
 	<bscroll-list :loaded=loaded  class="m-repple"  @listRefresh='listRefresh' @listLoad="listLoad">
-		<ul class="m-list" slot="list">
+		<ul class="m-list" >
 			<li v-for="(item,index) in subList" :key='index' @click="articleDetail(item.articleId)">
 				<navs-list-image :subItem="item"></navs-list-image>
 			</li>
@@ -12,7 +12,6 @@
 	import NavsListImage from "components/NavsListImage"
 	import BscrollList from "components/BscrollList"
 	import axios from 'axios'
-	import { mapMutations } from 'vuex'
 //	import NavsListImageThree from "components/NavsListImageThree"
 	export default{
 		data(){
@@ -48,12 +47,8 @@
 				
 			},
 			articleDetail(articleId){
-				this.setPageRouter(true);
 				this.$router.push({name:"PageDetail", params: { "articleId": articleId }});
-			},
-			...mapMutations({
-				setPageRouter:"pageRouter"
-			})
+			}
 		},
 		components:{
 			NavsListImage,

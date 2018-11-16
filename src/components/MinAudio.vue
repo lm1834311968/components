@@ -66,6 +66,7 @@
 			},
 			playReLoad(){
 				this.$refs.audio.currentTime=0;
+				debugger
 				this.setSongPlay(true);
 			},
 		
@@ -136,6 +137,7 @@
 				this.setSongPlay(true);
 			},
 			songPlay(newval){
+				debugger
 				if(newval){
 					this.play();
 				}else{
