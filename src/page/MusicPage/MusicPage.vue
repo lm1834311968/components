@@ -55,10 +55,11 @@
 		},
 		methods: {
 			getSong() {
-				axios.get(this.GLOBAL.IP + "/songList.json").then(this.setSong)
+				axios.post(this.GLOBAL.SONGLISTIP).then(this.setSong)
 			},
 			setSong(res) {
-				this.songLists = res.data.data;
+				debugger
+				this.songLists = res.data;
 				this.$nextTick(() => {
 					this.scroll = new Bscroll(this.$refs.repple, {
 						probeType: 3,
@@ -97,7 +98,7 @@
 		right: 0;
 		left: 0;
 		top: 0.4rem;
-		bottom: 0.6rem;
+		bottom: 1.3rem;
 		overflow: hidden;
 	}
 	

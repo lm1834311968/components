@@ -29,10 +29,10 @@
 		},
 		methods: {
 			getList() { //获取最新数据函数
-				axios.get(this.GLOBAL.IP + '/songList.json').then(this.setList);
+				axios.post(this.GLOBAL.SONGLISTIP).then(this.setList);
 			},
 			setList(res) {
-				this.songList = res.data.data;
+				this.songList = res.data;
 				this.$nextTick(() => {
 					this.loaded = !this.loaded; //为了触发滚动的better-scroll插件重置
 				})
@@ -41,10 +41,10 @@
 				this.getList();
 			},
 			listLoad() { //下拉加载
-				axios.get(this.GLOBAL.IP + '/songList.json').then(this.getListMore);
+				axios.post(this.GLOBAL.SONGLISTIP).then(this.getListMore);
 			},
 			getListMore(res) {
-				this.songList = this.songList.concat(res.data.data);
+				this.songList = this.songList.concat(res.data);
 				this.$nextTick(() => {
 					this.loaded = !this.loaded; //为了触发滚动的better-scroll插件重置
 				})

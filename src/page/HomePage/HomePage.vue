@@ -22,7 +22,7 @@
 				swiperOption: {
 					pagination: '.swiper-pagination',
 					loop: true,
-					touchAngle:10,
+					touchAngle:20,
 					on: {
 						slideChangeTransitionEnd: this.chooseIndex
 					}

@@ -1,23 +1,23 @@
 <template>
 	<ul class="items">
-		<li v-for="item in songLists">
+		<li  v-for="(item,index) in songLists" :key="index">
 			<div class="item-icon">
 				<i class="el-icon-plus"></i>
 			</div>
 			<div class="item-img">
-				<img v-lazy="item.album.picUrl" />
+				<img v-lazy="item.img" />
 			</div>
-			<div class="item-content" @click="choose(item.album)">
-				<div class="song-title ellipsis">{{item.album.name}}</div>
-				<div class="song-author">{{item.artists[0].name}}</div>
+			<div class="item-content" @click="choose(item)">
+				<div class="song-title ellipsis">{{item.songName}}</div>
+				<div class="song-author">{{item.authorName}}</div>
 				<div class="song-collect">
 					<i class="el-icon-star-on"></i>
-					<span>{{item.duration}}</span>
+					<span>{{item.timelength}}</span>
 				</div>
 			</div>
 			<div class="item-more">
 				<i class="el-icon-more"></i>
-				<div>{{item.fee}}分钟前</div>
+				<div>8分钟前</div>
 			</div>
 		</li>
 	</ul>
@@ -36,14 +36,14 @@
 		methods: {
 			choose(songDetail) {
 				//判断当前歌曲是否为此首歌
-				if(songDetail.id == this.currentSong.id) {
+				if(songDetail.songName == this.currentSong.songName) {
 					let songP = !this.songPlay;
 					this.setSongPlay(songP);
 				} else {
 					this.setCurrentSong(songDetail);
 					let canSet = true;
 					this.songList.forEach((value) => {
-						if(value.id == songDetail.id) {
+						if(value.songName == songDetail.songName) {
 							canSet = false;
 						}
 					})

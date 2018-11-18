@@ -1,9 +1,14 @@
 <template>
 	<div>
-		<audio ref="audio" @ended="ended" :src="currentSong.url" @canplay="canplay" @timeupdate='timeUpDateSliders'></audio>
+		<audio ref="audio" 
+			@ended="ended" 
+			:src="currentSong.playUrl"
+			@error="error" 
+			@canplay="canplay" 
+			@timeupdate='timeUpDateSliders'></audio>
 		<div class=""></div>
 		<div class="min-img">
-			<img :class="iconRun" :src="currentSong.picUrl" />
+			<img :class="iconRun" :src="currentSong.img" />
 		</div>
 		<div class="min-content">
 			<div class="min-sliders">
@@ -11,8 +16,8 @@
 			</div>
 			<div class="min-detail">
 				<div class="min-names">
-					<div class="ellipsis">{{currentSong.name}}</div>
-					<div>{{currentSong.author}}</div>
+					<div class="ellipsis">{{currentSong.songName}}</div>
+					<div>{{currentSong.authorName}}</div>
 				</div>
 				<div class="min-control">
 					<i class="iconfont icon-diyiyeshouyeshangyishou" @click="playPrev"></i>
@@ -51,22 +56,19 @@
 				this.play();
 			},
 			pausePlay(){
-				if(this.songPlay){
-					this.pause();
-				}else{
-					this.play();
-				}
 				this.setSongPlay(!this.songPlay);
+					
 			},
 			play(){
 				this.$refs.audio.play();
+			},
+			error(){
 			},
 			pause(){
 				this.$refs.audio.pause();
 			},
 			playReLoad(){
 				this.$refs.audio.currentTime=0;
-				debugger
 				this.setSongPlay(true);
 			},
 		
@@ -81,7 +83,7 @@
 				}
 				let _index;
 				this.songList.forEach((value,index)=>{
-				if(value.id==this.currentSong.id){
+				if(value.songName==this.currentSong.songName){
 						_index=index
 					}
 				})
@@ -100,7 +102,7 @@
 				}
 				let _index;
 				this.songList.forEach((value,index)=>{
-					if(value.id==this.currentSong.id){
+					if(value.songName==this.currentSong.songName){
 						_index=index
 					}
 				})
@@ -132,17 +134,19 @@
 		},
 		watch: {
 			currentSong(newval) {
+				debugger
 				this.songDetail = newval;
 				this.value1 = 0;
 				this.setSongPlay(true);
 			},
 			songPlay(newval){
-				debugger
-				if(newval){
-					this.play();
-				}else{
-					this.pause();
-				}
+				this.$nextTick(()=>{
+					if(newval){
+						this.play();
+					}else{
+						this.pause();
+					}
+				})
 			}
 		}
 	}

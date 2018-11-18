@@ -18,9 +18,14 @@
 					name: '乐库',
 					code: 'music-all',
 					bgcolor: "#fea736"
-				}, {
+				},  {
+					icon: "icon-gengduo",
+					name: '歌手',
+					code: 'music-singer',
+					bgcolor: "#906dc9"
+				},{
 					icon: "icon-vynil",
-					name: '歌单',
+					name: '历史歌单',
 					code: 'music-song',
 					bgcolor: "#2acb9f"
 				}, {
@@ -38,11 +43,6 @@
 					name: '每日推荐',
 					code: 'music-recommend',
 					bgcolor: "#ff6364"
-				}, {
-					icon: "icon-gengduo",
-					name: '歌手',
-					code: 'music-singer',
-					bgcolor: "#906dc9"
 				}],
 				nowIndex: 0
 			}

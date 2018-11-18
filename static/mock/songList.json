@@ -36,11 +36,11 @@
 			"djid": 0,
 			"album": {
 				"id": 74150687,
-				"name": "上新了·故宫",
+				"name": "亲爱的那不是爱情",
 				"picUrl": "http://p1.music.126.net/bUw0U4kkOdCkKy85ir_c9Q==/109951163635110634.jpg",
 				"url": "http://www.minlu.shop:8080/music/Rg0DAFT7D-OAYNBXAFdNb9-h8b0642.mp3",
 
-				"author": "邓伦",
+				"author": "张韶涵",
 				"tns": [],
 				"pic_str": "109951163635110634",
 				"pic": 109951163635110634
@@ -89,10 +89,10 @@
 			"djid": 0,
 			"album": {
 				"id": 71901555,
-				"name": "Gangsta Gangsta (Dr. Fresch Remix)",
+				"name": "年少有为",
 				"picUrl": "http://p1.music.126.net/FaLVGn-D5mDRTV5hMYYWbQ==/109951163420840010.jpg",
 				"url": "http://www.minlu.shop:8080/music/dZQEAFvGGduANmzGAEQsL9K9TKA693.mp3",
-				"author": "мавлан музыка",
+				"author": "张荣浩",
 				"tns": [],
 				"pic_str": "109951163420840010",
 				"pic": 109951163420840010
@@ -142,16 +142,18 @@
 			"djid": 0,
 			"album": {
 				"id": 74150715,
-				"name": "纯粹",
+				"name": "佛系少女",
 				"picUrl": "http://p1.music.126.net/NvLtgKdJO8OVSzrMzHzsVQ==/109951163635541730.jpg",
+				"url": "http://www.minlu.shop:8080/music/uw0DAFqBb8-ANLVwAC-Y34NVTZE339.mp3",
 				"tns": [],
+				"author": "Timo",
 				"pic_str": "109951163635541730",
 				"pic": 109951163635541730
 			},
 			"artists": [
 				{
 					"id": 12037181,
-					"name": "徐海俏",
+					"name": "timo",
 					"tns": [],
 					"alias": []
 				}
@@ -192,9 +194,11 @@
 			"djid": 0,
 			"album": {
 				"id": 74151701,
-				"name": "别BB",
+				"name": "沙漠骆驼",
 				"picUrl": "http://p1.music.126.net/dg6zHRdgKAa76j16XnrATw==/109951163636160228.jpg",
+				"url": "http://www.minlu.shop:8080/music/sg0DAFlKHeeAIuuhAFKMQ0TqEYw721.mp3",
 				"tns": [],
+				"author": "站长",
 				"pic_str": "109951163636160228",
 				"pic": 109951163636160228
 			},

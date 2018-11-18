@@ -1,7 +1,16 @@
 <template>
-	<div>
-		<div ref="repple" class='singers'>
-			<div>
+	<div ref='singerContent'>
+		<div class="singer-classifys-name top-alphabet">{{alphabetDataActive}}</div>
+		<Bscroll 
+			ref="bscroll" 
+			class='singers' 
+			:data="dataed"
+			:probeType="3" 
+			:pullup="true"
+			:listenScroll="true" 
+			:bounce="false"
+			@scroll="scroll"
+			v-if="dataed.length">
 				<ul class="singer-classifys">
 					<li v-for="items in dataed" :ref="items.title">
 						<div class="singer-classifys-name">{{items.title}}</div>
@@ -10,26 +19,24 @@
 						</ul>
 					</li>
 				</ul>
-			</div>
-		</div>
+		</Bscroll>
 		<div class="alphabets">
 			<ul class="alphabet">
-				<li v-for="(items,index) in dataed"  
-					@touchstart.prevent="touchStart" 
-					@touchmove.prevent="touchMove" 
+				<li v-for="(items,index) in dataed" 
+					@touchstart.stop="touchStart" 
+					@touchmove.stop="touchMove" 
 					@touchend="touchEnd" 
 					:key="index" 
 					@click='clickItem(items.title)' 
-					:ref="'alphabet'+index"
-					:class="alphabetData==items.title?'active':''"
-					 >{{items.title}}</li>
+					:ref="'alphabet'+index" 
+					:class="alphabetDataActive==items.title?'active':''">{{items.title}}</li>
 			</ul>
 		</div>
 	</div>
 </template>
 
 <script>
-	import Bscroll from 'better-scroll'
+	import Bscroll from 'components/Bscroll'
 	export default {
 		props: {
 			dataed: {}
@@ -38,13 +45,14 @@
 		data() {
 			return {
 				alphabetData: 'A',
-				scrollY: [],
-				start: false
+				alphabetDataActive:'A'
+//				scrollY: [],
+//				start: false
 			}
 		},
 		methods: {
 			touchStart(e) {
-				this.start = true;
+				this.start = true;//是否在本字母表上开始点击
 			},
 			touchMove(e) {
 				if(this.start) {
@@ -53,27 +61,43 @@
 						clearTimeout(this.time);
 					}
 					this.time = setTimeout(() => {
-						that.scrollY[1] = e.touches[0].clientY;
-						let alphabetNow = Math.floor((that.scrollY[1] - that.scrollY[0] - 40) / that.alphabetHeight);
-						if(alphabetNow>0&&alphabetNow<that.getLetter.length){
+						that.scrollY = e.touches[0].clientY;
+						debugger
+						let alphabetNow = Math.floor((that.scrollY - that.fristAlphabetTop - that.$refs.singerContent.offsetTop) / that.alphabetHeight);
+						if(alphabetNow >= 0 && alphabetNow < that.getLetter.length) {
 							that.alphabetData = that.getLetter[alphabetNow];
+							that.alphabetDataActive = that.getLetter[alphabetNow];
 						}
-						
 					}, 16)
 				}
-
 			},
 			touchEnd(e) {
 				this.start = false;
 			},
-			clickItem(title){
+			clickItem(title) {
+				this.alphabetData = title;
+				this.alphabetDataActive = title;
+			},
+			scroll(pos){
 				debugger
-				this.alphabetData=title;
+				console.log(pos.y)
+				if(-pos.y<0){      //第一个的时候
+					this.alphabetDataActive=this.getLetter[0];
+					return;
+				}
+				for(let i=0;i<this.getLetter.length;i++){//中间的时候
+					if(-pos.y<this.$refs[this.getLetter[i]][0].offsetTop){
+						this.alphabetDataActive=this.getLetter[i-1];
+						return;
+					}
+				}
+				if(-pos.y>this.$refs[this.getLetter[this.getLetter.length-1]][0].offsetTop){//最后一个的时候
+					this.alphabetDataActive=this.getLetter[this.getLetter.length-1];
+				}
 			}
 		},
 		computed: {
 			getLetter() {
-				console.log(456)
 				let _list = [];
 				this.dataed.forEach((val) => {
 					_list.push(val.title)
@@ -84,21 +108,19 @@
 		components: {
 			Bscroll
 		},
-		updated() {
-			this.$nextTick(() => {
-				if(this.dataed.length != 0) {
-					this.scroll = new Bscroll(this.$refs.repple, {
-						click: true
-					});
-					this.scrollY[0] = this.$refs.alphabet0[0].offsetTop;
-					this.alphabetHeight = this.$refs.alphabet0[0].offsetHeight;
-				}
-			})
-		},
 		watch: {
 			alphabetData(newval) {
 				const element = this.$refs[newval][0];
-				this.scroll.scrollToElement(element);
+				this.$refs.bscroll.scrollToElement(element);
+			},
+			dataed(val) {
+				this.$nextTick(() => {
+					if(this.dataed.length != 0) {
+						debugger
+						this.fristAlphabetTop= this.$refs.alphabet0[0].offsetTop;
+						this.alphabetHeight = this.$refs.alphabet0[0].offsetHeight;
+					}
+				})
 			}
 		}
 	}
@@ -110,14 +132,19 @@
 		width: 100%;
 		overflow: hidden;
 	}
-	
+	.top-alphabet{
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 2;
+	}
+	.singer-classifys-name {
+		font-size: 0.2rem;
+		line-height: 0.3rem;
+		background: #f2f2f2;
+		padding: 0 0.2rem;
+	}
 	.singer-classifys {
-		.singer-classifys-name {
-			font-size: 0.2rem;
-			line-height: 0.3rem;
-			background: #f2f2f2;
-			padding: 0 0.2rem;
-		}
 		.singer-name {
 			line-height: 0.4rem;
 			font-size: 0.16rem;
@@ -134,12 +161,14 @@
 		display: flex;
 		align-items: center;
 		text-align: center;
-		font-size: 0.14rem;
+		font-size: 0.12rem;
+		line-height: 0.16rem;
 		.alphabet {
 			li {
-				padding: 0.02rem 0.06rem;
+				padding: 0 0.1rem;
+				z-index: 10;
 			}
-			.active{
+			.active {
 				color: #38f;
 			}
 		}

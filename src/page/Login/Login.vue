@@ -24,8 +24,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			background: url(./bg.jpg) no-repeat;
-			background-size: cover;
+			background: #ebba49;
 			height: 100%;
 		}
 		form {

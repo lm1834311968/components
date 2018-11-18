@@ -51,10 +51,10 @@
 				},200);
 			},
 			getList(val){
-				axios.get(this.GLOBAL.IP + "/songList.json?name="+val).then(this.setList)
+				axios.post(this.GLOBAL.SONGLISTIP).then(this.setList)
 			},
 			setList(res){
-				this.searchResult=res.data.data;
+				this.searchResult=res.data;
 			},
 			choose(items){
 				if(this.historyList.length>5){

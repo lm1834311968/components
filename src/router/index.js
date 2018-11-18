@@ -32,6 +32,12 @@ const MusicSinger = (resolve) => {
     resolve(module)
   })
 }
+const MusicListPage = (resolve) => {
+  import('page/MusicListPage/MusicListPage').then((module) => {
+    resolve(module)
+  })
+}
+
 
 
 Vue.use(Router)
@@ -64,12 +70,21 @@ export default new Router({
 						next({name:"MusicSinger",query:to.query});
 						return;
 					}
+					if(to.query.code=="music-song"){
+						next({name:"MusicListPage",query:to.query});
+						return;
+					}
 					next();
 				}
 			},{
 				path: 'MusicSinger',
 				name: 'MusicSinger',
 				component: MusicSinger
+			},
+			{
+				path: 'MusicListPage',
+				name: 'MusicListPage',
+				component: MusicListPage
 			}]
 		}
 	]

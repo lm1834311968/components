@@ -3,7 +3,7 @@
 		<back>
 			<div>互联网</div>
 		</back>
-		<bscroll class="article-detail" :dataed="articleContent">
+		<bscroll class="article-detail has-top" :data="articleContent">
 			<div class="detail-content">
 				<h4>{{articleContent.title}}</h4>
 				<div class="subtitle">
@@ -48,9 +48,8 @@
 <style lang="less" scoped>
 	.article-detail {
 		background: #fff;
-		padding: 0.2rem 0;
 		.detail-content {
-			padding-bottom: 0.2rem;
+			padding: 0 0.1rem 0.2rem;
 		}
 		h4 {
 			font-weight: normal;
@@ -67,11 +66,11 @@
 			}
 		}
 		.content {
-			padding-bottom: 0.2rem;
-			font-size: 0.18rem;
+			font-size: 0.14rem;
 		}
 		.content /deep/ img {
 			width: 100%;
+			height: 2.2rem;
 		}
 	}
 </style>

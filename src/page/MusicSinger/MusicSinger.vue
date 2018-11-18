@@ -27,7 +27,7 @@
 		},
 		methods: {
 			getOrderList() {
-				axios.get(this.GLOBAL.IP + '/singer.json').then(this.setOrderList);
+				axios.get(this.GLOBAL.SONGERIP).then(this.setOrderList);
 			},
 			setOrderList(res) {
 				let _list = [];
