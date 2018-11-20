@@ -4,7 +4,7 @@
 			<div>{{title}}</div>
 		</back>
 		<bscroll :data="songList" class="m-repple" >
-			<music-lists :songLists="songList" ></music-lists>
+			<music-lists :songLists="songList" :plusMinus='plusMinus' :code="code"></music-lists>
 		</bscroll>
 	</div>
 </template>
@@ -23,12 +23,17 @@
 				songList: {}
 			}
 		},
+		created(){
+			this.plusMinus=Boolean(this.$route.query.plusMinus);
+			this.code=this.$route.query.code;
+		},
 		mounted() {
 			this.title = this.$route.query.name;
-			debugger
-			switch(this.$route.query.code){
+			switch(this.code){
 				case "music-song":
 				this.songList=this.songListed;break;
+				case "music-mysong":
+				this.songList=this.favoriteList;break;
 				default:
 				this.getList();
 			}
@@ -36,11 +41,18 @@
 		methods: {
 			choose(item) {
 				this.$router.go(-1);
-			}
+			},
+			getList(val){
+				axios.post(this.GLOBAL.SONGLISTIP).then(this.setList)
+			},
+			setList(res){
+				this.songList=res.data;
+			},
 		},
 		computed:{
 			...mapGetters({
-				songListed:"songList"
+				songListed:"songList",
+				favoriteList:"favoriteList"
 			})
 		},
 		components: {

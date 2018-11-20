@@ -1,17 +1,17 @@
 const state = {
 	favoriteList: [], //喜爱的歌曲
 	songList: [{ //当前播放数据
-		authorName: "石凯",
-		img: "http://singerimg.kugou.com/uploadpic/softhead/400/20150515/20150515165442983801.jpg",
-		playUrl: "http://fs.w.kugou.com/201811181422/7bf3a047e06f37b2b843ee62394483b2/G106/M08/0C/14/qg0DAFvudfiAPsqoADals0Wqq1k714.mp3",
-		songName: "可能否+游移的月亮 (Live)",
+		authorName: "张韶涵",
+		img: "https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/awhcrop%3D200%2C200/sign=1c94e8fe53df8db1aa6421377b4cad69/f3d3572c11dfa9eccae7bf716fd0f703908fc18f.jpg",
+		playUrl: "http://www.minlu.shop:8080/music/dZQEAFvGGduANmzGAEQsL9K9TKA693.mp3",
+		songName: "亲爱的那不是爱情",
 		timelength: "03:43"
 	}], //当前播放列表
 	currentSong: { //当前播放数据
-		authorName: "石凯",
-		img: "http://singerimg.kugou.com/uploadpic/softhead/400/20150515/20150515165442983801.jpg",
-		playUrl: "http://fs.w.kugou.com/201811181422/7bf3a047e06f37b2b843ee62394483b2/G106/M08/0C/14/qg0DAFvudfiAPsqoADals0Wqq1k714.mp3",
-		songName: "可能否+游移的月亮 (Live)",
+		authorName: "张韶涵",
+		img: "https://gss0.bdstatic.com/94o3dSag_xI4khGkpoWK1HF6hhy/baike/awhcrop%3D200%2C200/sign=1c94e8fe53df8db1aa6421377b4cad69/f3d3572c11dfa9eccae7bf716fd0f703908fc18f.jpg",
+		playUrl: "http://www.minlu.shop:8080/music/dZQEAFvGGduANmzGAEQsL9K9TKA693.mp3",
+		songName: "亲爱的那不是爱情",
 		timelength: "03:43"
 	},
 	songPlay: false, //暂停还是播放

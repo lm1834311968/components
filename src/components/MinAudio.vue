@@ -134,7 +134,6 @@
 		},
 		watch: {
 			currentSong(newval) {
-				debugger
 				this.songDetail = newval;
 				this.value1 = 0;
 				this.setSongPlay(true);

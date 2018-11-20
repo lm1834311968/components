@@ -1,11 +1,11 @@
 <template>
 	<ul class="items">
 		<li  v-for="(item,index) in songLists" :key="index">
-			<div class="item-icon">
-				<i class="el-icon-plus"></i>
+			<div class="item-icon"@click="changeList(item)">
+				<i :class="plusMinus?'el-icon-plus':'el-icon-minus'"></i>
 			</div>
 			<div class="item-img">
-				<img v-lazy="item.img" />
+				<img v-lazy="item.img" :key="item.img"/>
 			</div>
 			<div class="item-content" @click="choose(item)">
 				<div class="song-title ellipsis">{{item.songName}}</div>
@@ -28,21 +28,34 @@
 	import { mapGetters } from 'vuex'
 	export default {
 		props: {
-			songLists: {}
-		},
-		mounted() {
-			this.playSongList = this.songList;
+			songLists: {},
+			plusMinus:{
+				type:Boolean,
+				default:true
+			},
+			code:{
+				type:String,
+				default:''
+			}
 		},
 		methods: {
 			choose(songDetail) {
 				//判断当前歌曲是否为此首歌
+				this.addSongList(songDetail);
+				this.$emit('choose', songDetail)
+			},
+			addSongList(songDetail){
 				if(songDetail.songName == this.currentSong.songName) {
 					let songP = !this.songPlay;
 					this.setSongPlay(songP);
 				} else {
 					this.setCurrentSong(songDetail);
+					this.setSongList(songDetail);
+				}
+			},
+			addfavoriteList(songDetail){
 					let canSet = true;
-					this.songList.forEach((value) => {
+					this.favoriteList.forEach((value) => {
 						if(value.songName == songDetail.songName) {
 							canSet = false;
 						}
@@ -51,15 +64,29 @@
 						this.playSongList.push(songDetail);
 						this.setSongList(this.playSongList);
 					}
+			},
+			changeList(songDetail){
+				if(this.plusMinus){
+					this.addSongList(songDetail);
+					this.addfavoriteList(songDetail);
+				}else{
+					debugger
+					if(this.code=="music-song"){
+						this.removeSongList(songDetail);
+					}else if(this.code=="music-mysong"){
+						
+					}
 				}
 
-				this.$emit('choose', songDetail)
 			},
 			...mapMutations({
-				setSongList: "songList",
+				setSongList: "setSongList",
+				removeSongList:"removeSongList",
 				setFavoriteList: "favoriteList",
 				setCurrentSong: "currentSong",
-				setSongPlay: "songPlay"
+				setSongPlay: "songPlay",
+				setFavoriteList:"favoriteList"
+				
 			})
 		},
 		computed: {
@@ -67,7 +94,8 @@
 				"songList",
 				"favoriteList",
 				"songPlay",
-				"currentSong"
+				"currentSong",
+				"favoriteList"
 			])
 		},
 	}

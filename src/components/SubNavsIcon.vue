@@ -23,16 +23,16 @@
 					name: '歌手',
 					code: 'music-singer',
 					bgcolor: "#906dc9"
+				}, {
+					icon: "icon-yinle101",
+					name: '我的歌单',
+					code: 'music-mysong',
+					bgcolor: "#01a1ff"
 				},{
 					icon: "icon-vynil",
 					name: '历史歌单',
 					code: 'music-song',
 					bgcolor: "#2acb9f"
-				}, {
-					icon: "icon-yinle101",
-					name: '电台',
-					code: 'music-broadcast',
-					bgcolor: "#01a1ff"
 				}, {
 					icon: "icon-cainixihuan",
 					name: '猜你喜欢',
