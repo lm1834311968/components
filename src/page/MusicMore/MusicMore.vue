@@ -20,7 +20,8 @@
 			return {
 				title: "",
 				songList: {},
-				loaded:true
+				loaded:true,
+				pageSize:1
 			}
 		},
 		mounted() {
@@ -29,22 +30,24 @@
 		},
 		methods: {
 			getList() { //获取最新数据函数
-				axios.post(this.GLOBAL.SONGLISTIP).then(this.setList);
+				axios.get(this.GLOBAL.SONGLISTIP).then(this.setList);
 			},
 			setList(res) {
-				this.songList = res.data;
+				this.songList = res.data.recordset;
 				this.$nextTick(() => {
 					this.loaded = !this.loaded; //为了触发滚动的better-scroll插件重置
 				})
 			},
 			listRefresh() { //上拉刷新
+				this.pageSize=1;
 				this.getList();
 			},
 			listLoad() { //下拉加载
-				axios.post(this.GLOBAL.SONGLISTIP).then(this.getListMore);
+				this.pageSize++;
+				axios.get(this.GLOBAL.SONGLISTIP+'?pageSize='+this.pageSize).then(this.getListMore);
 			},
 			getListMore(res) {
-				this.songList = this.songList.concat(res.data);
+				this.songList = this.songList.concat(res.data.recordset);
 				this.$nextTick(() => {
 					this.loaded = !this.loaded; //为了触发滚动的better-scroll插件重置
 				})

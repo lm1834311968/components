@@ -74,7 +74,7 @@ export default new Router({
 						next({name:"MusicListPage",query:to.query});
 						return;
 					}
-					if(to.query.code=="music-mysong"){
+					if(to.query.code=="music-mysong"||to.query.code=="music-love"){
 						to.query["plusMinus"]=false;
 						next({name:"MusicListPage",query:to.query});
 						return;

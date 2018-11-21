@@ -51,10 +51,12 @@
 				},200);
 			},
 			getList(val){
-				axios.post(this.GLOBAL.SONGLISTIP).then(this.setList)
+				if(val){
+					axios.get(this.GLOBAL.SEARCHIP+'?search='+val).then(this.setList)
+				}
 			},
 			setList(res){
-				this.searchResult=res.data;
+				this.searchResult=res.data.recordset;
 			},
 			choose(items){
 				if(this.historyList.length>5){
@@ -141,5 +143,6 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
+	background: #fff;
 }
 </style>

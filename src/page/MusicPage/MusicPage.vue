@@ -22,6 +22,7 @@
 	import Bscroll from 'better-scroll'
 	import MinAudio from 'components/MinAudio'
 	import MusicLists from 'components/MusicLists'
+	import { mapMutations } from 'vuex'
 
 	export default {
 		data() {
@@ -50,16 +51,32 @@
 				playSongList: []
 			}
 		},
+		created(){
+			if(window.localStorage.getItem("songList")){
+				this.songList(JSON.parse(window.localStorage.getItem("songList")));
+			}
+			if(window.localStorage.getItem("favoriteList")){
+				this.favoriteList(JSON.parse(window.localStorage.getItem("favoriteList")));
+			}
+			if(window.localStorage.getItem("currentSongList")){
+				this.currentSongList(JSON.parse(window.localStorage.getItem("currentSongList")));
+			}
+			if(window.localStorage.getItem("currentSong")){
+				this.currentSong(JSON.parse(window.localStorage.getItem("currentSong")));
+			}
+			
+			
+		},
 		mounted() {
 			this.getSong();
 		},
 		methods: {
 			getSong() {
-				axios.post(this.GLOBAL.SONGLISTIP).then(this.setSong)
+				axios.get(this.GLOBAL.SONGLISTIP).then(this.setSong)
 			},
 			setSong(res) {
 				debugger
-				this.songLists = res.data;
+				this.songLists = res.data.recordset;
 				this.$nextTick(() => {
 					this.scroll = new Bscroll(this.$refs.repple, {
 						probeType: 3,
@@ -79,7 +96,13 @@
 			},
 			searched(){
 				this.$router.push({name:"MusicSearch"})
-			}
+			},
+			...mapMutations([
+				"songList",
+				"favoriteList",
+				"currentSongList",
+				"currentSong"
+			])
 
 		},
 		components: {

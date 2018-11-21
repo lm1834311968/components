@@ -50,43 +50,34 @@
 					this.setSongPlay(songP);
 				} else {
 					this.setCurrentSong(songDetail);
-					this.setSongList(songDetail);
+					this.currentSongList(this.songLists);
 				}
 			},
 			addfavoriteList(songDetail){
-					let canSet = true;
-					this.favoriteList.forEach((value) => {
-						if(value.songName == songDetail.songName) {
-							canSet = false;
-						}
-					})
-					if(canSet) {
-						this.playSongList.push(songDetail);
-						this.setSongList(this.playSongList);
-					}
+				this.setFavoriteList(songDetail);
 			},
 			changeList(songDetail){
 				if(this.plusMinus){
-					this.addSongList(songDetail);
 					this.addfavoriteList(songDetail);
 				}else{
-					debugger
 					if(this.code=="music-song"){
 						this.removeSongList(songDetail);
 					}else if(this.code=="music-mysong"){
-						
+						this.removeFavoriteList(songDetail);
+					}else if(this.code=="music-love"){
+						this.removeCurrentSongList(songDetail);
 					}
 				}
-
 			},
 			...mapMutations({
-				setSongList: "setSongList",
 				removeSongList:"removeSongList",
-				setFavoriteList: "favoriteList",
 				setCurrentSong: "currentSong",
 				setSongPlay: "songPlay",
-				setFavoriteList:"favoriteList"
-				
+				setFavoriteList: "setFavoriteList",
+				removeFavoriteList:"removeFavoriteList"	,
+				currentSongList:"currentSongList",
+				removeCurrentSongList:"removeCurrentSongList",
+				setCurrentSongList:"setCurrentSongList"
 			})
 		},
 		computed: {
@@ -97,7 +88,7 @@
 				"currentSong",
 				"favoriteList"
 			])
-		},
+		}
 	}
 </script>
 

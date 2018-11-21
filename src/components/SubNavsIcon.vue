@@ -14,35 +14,35 @@
 		data() {
 			return {
 				navsList: [{
-					icon: "icon-yinyue",
-					name: '乐库',
-					code: 'music-all',
-					bgcolor: "#fea736"
-				},  {
-					icon: "icon-gengduo",
-					name: '歌手',
-					code: 'music-singer',
-					bgcolor: "#906dc9"
+					icon: "icon-tuijian",
+					name: '每日推荐',
+					code: 'music-recommend',
+					bgcolor: "#ff6364"
 				}, {
-					icon: "icon-yinle101",
+					icon: "icon-cainixihuan",
 					name: '我的歌单',
 					code: 'music-mysong',
 					bgcolor: "#01a1ff"
+				},{
+					icon: "icon-yinle101",
+					name: '当前歌单',
+					code: 'music-love',
+					bgcolor: "#e86ee7"
 				},{
 					icon: "icon-vynil",
 					name: '历史歌单',
 					code: 'music-song',
 					bgcolor: "#2acb9f"
-				}, {
-					icon: "icon-cainixihuan",
-					name: '猜你喜欢',
-					code: 'music-love',
-					bgcolor: "#e86ee7"
-				}, {
-					icon: "icon-tuijian",
-					name: '每日推荐',
-					code: 'music-recommend',
-					bgcolor: "#ff6364"
+				},{
+					icon: "icon-yinyue",
+					name: '乐库',
+					code: 'music-all',
+					bgcolor: "#fea736"
+				} , {
+					icon: "icon-gengduo",
+					name: '歌手',
+					code: 'music-singer',
+					bgcolor: "#906dc9"
 				}],
 				nowIndex: 0
 			}

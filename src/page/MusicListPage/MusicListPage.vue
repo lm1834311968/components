@@ -34,6 +34,8 @@
 				this.songList=this.songListed;break;
 				case "music-mysong":
 				this.songList=this.favoriteList;break;
+				case "music-love":
+				this.songList=this.currentSongList;break;
 				default:
 				this.getList();
 			}
@@ -43,16 +45,17 @@
 				this.$router.go(-1);
 			},
 			getList(val){
-				axios.post(this.GLOBAL.SONGLISTIP).then(this.setList)
+				axios.get(this.GLOBAL.SONGLISTIP).then(this.setList)
 			},
 			setList(res){
-				this.songList=res.data;
+				this.songList=res.data.recordset;
 			},
 		},
 		computed:{
 			...mapGetters({
 				songListed:"songList",
-				favoriteList:"favoriteList"
+				favoriteList:"favoriteList",
+				currentSongList:"currentSongList"
 			})
 		},
 		components: {

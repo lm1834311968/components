@@ -77,48 +77,49 @@
 			},
 			playPrev(){
 				//单曲循环或者是播放列表只有一个数据的时候
-				if(this.songList.length==1||this.playMode==2){
+				if(this.currentSongList.length==1||this.playMode==2){
 					this.playReLoad();
 					return;
 				}
 				let _index;
-				this.songList.forEach((value,index)=>{
+				this.currentSongList.forEach((value,index)=>{
 				if(value.songName==this.currentSong.songName){
 						_index=index
 					}
 				})
 				if(_index==0){
-					_index=this.songList.length-1;
+					_index=this.currentSongList.length-1;
 				}else{
 					_index=_index-1;
 				}
-				this.setCurrentSong(this.songList[_index]);
+				this.setCurrentSong(this.currentSongList[_index]);
 			},
 			playNext(){
 				//单曲循环或者是播放列表只有一个数据的时候
-				if(this.songList.length==1||this.playMode==2){
+				if(this.currentSongList.length==1||this.playMode==2){
 					this.playReLoad();
 					return;
 				}
 				let _index;
-				this.songList.forEach((value,index)=>{
+				this.currentSongList.forEach((value,index)=>{
 					if(value.songName==this.currentSong.songName){
 						_index=index
 					}
 				})
-				if(_index==this.songList.length-1){
+				if(_index==this.currentSongList.length-1){
 					_index=0;
 				}else{
 					_index=_index+1;
 				}
-				this.setCurrentSong(this.songList[_index]);
+				this.setCurrentSong(this.currentSongList[_index]);
 			},
 			timeUpDateChange(percent){
 				this.$refs.audio.currentTime=percent/100*this.duration;
 			},
 			...mapMutations({
 				setSongPlay:"songPlay",
-				setCurrentSong:"currentSong"
+				setCurrentSong:"currentSong",
+				setSongList:"setSongList"
 			})
 		},
 		computed: {
@@ -129,14 +130,16 @@
 				"currentSong",
 				"songPlay",
 				"songList",
-				"playMode"
+				"playMode",
+				"currentSongList"
 			])
 		},
 		watch: {
-			currentSong(newval) {
+			currentSong(newval) { 
 				this.songDetail = newval;
 				this.value1 = 0;
 				this.setSongPlay(true);
+				this.setSongList(newval);
 			},
 			songPlay(newval){
 				this.$nextTick(()=>{

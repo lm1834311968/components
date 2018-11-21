@@ -91,6 +91,7 @@
 						return;
 					}
 				}
+				debugger
 				if(-pos.y>this.$refs[this.getLetter[this.getLetter.length-1]][0].offsetTop){//最后一个的时候
 					this.alphabetDataActive=this.getLetter[this.getLetter.length-1];
 				}
