@@ -1,6 +1,6 @@
 <template>
 	<ul class="sub-navs">
-		<li v-for="(item,index) in subName" @click='choose(index)' :class="indexNow==index?'active':''" :key="index">{{item}}</li>
+		<li v-for="(item,index) in subName" @click='choose(index)' :class="indexNow==index?'active':''" :key="index">{{item.name}}</li>
 	</ul>
 </template>
 

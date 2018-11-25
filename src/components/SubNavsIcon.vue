@@ -14,11 +14,18 @@
 		data() {
 			return {
 				navsList: [{
+					icon: "icon-yinyue",
+					name: '网络红歌',
+					code: 'music-all',
+					bgcolor: "#fea736",
+					type:"网络红歌"
+				},{
 					icon: "icon-tuijian",
-					name: '每日推荐',
+					name: 'DJ热歌榜',
 					code: 'music-recommend',
-					bgcolor: "#ff6364"
-				}, {
+					bgcolor: "#ff6364",
+					type:"DJ热歌榜"
+				},{
 					icon: "icon-cainixihuan",
 					name: '我的歌单',
 					code: 'music-mysong',
@@ -33,11 +40,6 @@
 					name: '历史歌单',
 					code: 'music-song',
 					bgcolor: "#2acb9f"
-				},{
-					icon: "icon-yinyue",
-					name: '乐库',
-					code: 'music-all',
-					bgcolor: "#fea736"
 				} , {
 					icon: "icon-gengduo",
 					name: '歌手',

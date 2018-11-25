@@ -55,6 +55,7 @@
 			},
 			addfavoriteList(songDetail){
 				this.setFavoriteList(songDetail);
+				this.open6("添加到我的歌单");
 			},
 			changeList(songDetail){
 				if(this.plusMinus){
@@ -69,6 +70,13 @@
 					}
 				}
 			},
+		   open6(messaged) {
+			 this.$notify.success({
+			        title: '',
+			        message: messaged+'成功',
+			        showClose: false
+		        });
+	      	},
 			...mapMutations({
 				removeSongList:"removeSongList",
 				setCurrentSong: "currentSong",

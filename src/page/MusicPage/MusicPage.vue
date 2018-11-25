@@ -72,7 +72,7 @@
 		},
 		methods: {
 			getSong() {
-				axios.get(this.GLOBAL.SONGLISTIP).then(this.setSong)
+				axios.get(this.GLOBAL.RANDOMIP).then(this.setSong)
 			},
 			setSong(res) {
 				debugger

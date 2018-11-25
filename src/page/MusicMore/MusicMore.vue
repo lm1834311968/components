@@ -21,33 +21,37 @@
 				title: "",
 				songList: {},
 				loaded:true,
-				pageSize:1
+				pageNum:0
 			}
 		},
 		mounted() {
 			this.title = this.$route.query.name;
+			this.pageType=this.$route.query.type;
 			this.getList();
 		},
 		methods: {
 			getList() { //获取最新数据函数
-				axios.get(this.GLOBAL.SONGLISTIP).then(this.setList);
+				this.pageNum=0;
+				axios.get(this.GLOBAL.SONGLISTIP+"?pageType="+this.pageType+"&pageNum="+this.pageNum).then(this.setList);
 			},
 			setList(res) {
 				this.songList = res.data.recordset;
+				this.pageNum=res.data.recordset[res.data.recordset.length-1].id;
 				this.$nextTick(() => {
 					this.loaded = !this.loaded; //为了触发滚动的better-scroll插件重置
 				})
 			},
 			listRefresh() { //上拉刷新
-				this.pageSize=1;
+				this.pageNum=0;
 				this.getList();
 			},
 			listLoad() { //下拉加载
-				this.pageSize++;
-				axios.get(this.GLOBAL.SONGLISTIP+'?pageSize='+this.pageSize).then(this.getListMore);
+				axios.get(this.GLOBAL.SONGLISTIP+'?pageNum='+this.pageNum+"&pageType="+this.pageType).then(this.getListMore);
 			},
 			getListMore(res) {
+				this.pageNum=res.data.recordset[res.data.recordset.length-1].id;
 				this.songList = this.songList.concat(res.data.recordset);
+				debugger
 				this.$nextTick(() => {
 					this.loaded = !this.loaded; //为了触发滚动的better-scroll插件重置
 				})

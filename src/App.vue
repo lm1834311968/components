@@ -25,9 +25,7 @@
 							}
 						
 						} else {
-//          	  webview.back();
 							that.$router.go(-1);
-
 						}
 					})
 				});
