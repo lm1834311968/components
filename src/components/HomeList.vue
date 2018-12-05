@@ -1,18 +1,17 @@
 <template>
-	<bscroll-list :loaded=loaded  class="m-repple"  @listRefresh='listRefresh' @listLoad="listLoad">
+	<bscroll-list :loaded="loaded"  class="m-repple"  @listRefresh='listRefresh' @listLoad="listLoad">
 		<ul class="m-list" >
-			<li v-for="(item,index) in subList" :key='index' @click="articleDetail(item.articleId)">
-				<navs-list-image :subItem="item"></navs-list-image>
+			<li v-for="(item,index) in subList" :key='index' >
+				<article-item :subItem="item"></article-item >
 			</li>
 		</ul>
 	</bscroll-list>
 </template>
 
 <script>
-	import NavsListImage from "components/NavsListImage"
+	import ArticleItem from "components/ArticleItem"
 	import BscrollList from "components/BscrollList"
 	import axios from 'axios'
-//	import NavsListImageThree from "components/NavsListImageThree"
 	export default{
 		props:{
 			type:''
@@ -20,7 +19,16 @@
 		data(){
 			return {
 				subList:[],
-				loaded:true
+				loaded:true,
+				pageNum:false,
+				page:1
+			}
+		},
+		created(){
+			if(this.type==0){
+				this.url=this.GLOBAL.PHRASEIP+"/getNewTheme"
+			}else{
+				this.url=this.GLOBAL.PHRASEIP+"/getThemeByType"
 			}
 		},
 		mounted(){
@@ -28,10 +36,27 @@
 		},
 		methods:{
 			getList(){//获取最新数据函数
-				axios.get(this.GLOBAL.IP+'/recommendList.json').then(this.setList);
+				if(this.pageNum){
+					this.page=Math.floor(Math.random()*this.pageNum+1);
+				}else{
+					this.page=Math.floor(Math.random()*200+1);
+				}
+				axios.get(this.url,{
+						params:{
+						typeId:this.type,
+						page:this.page,
+						pageSize:15
+					}
+				}).then(this.setList);
 			},
 			setList(res){
-				this.subList=res.data.list;
+				if(this.type==0){
+					this.subList=res.data.data;
+				}else{
+					this.subList=res.data.data.result;
+					this.pageNum=res.data.data.totalItems
+				}
+				debugger
 				this.$nextTick(()=>{
 					this.loaded=!this.loaded;//为了触发滚动的better-scroll插件重置
 				})
@@ -40,10 +65,23 @@
 				this.getList();
 			},
 			listLoad(){//下拉加载
-				axios.get(this.GLOBAL.IP+'/recommendList.json').then(this.getListMore);
+					this.page=Math.floor(Math.random()*this.pageNum+1);
+					axios.get(this.url,{
+						params:{
+						typeId:this.type,
+						page:this.page,
+						pageSize:15
+					}
+				}).then(this.getListMore);
 			},
 			getListMore(res){
-				this.subList=this.subList.concat(res.data.list);
+				let _data;
+				if(this.type==0){
+					_data=res.data.data;
+				}else{
+					_data=res.data.data.result;
+				}
+				this.subList=this.subList.concat(_data);
 				this.$nextTick(()=>{
 					this.loaded=!this.loaded;//为了触发滚动的better-scroll插件重置
 				})
@@ -54,9 +92,9 @@
 			}
 		},
 		components:{
-			NavsListImage,
-			BscrollList
-//			NavsListImageThree
+			BscrollList,
+			ArticleItem
+
 		}
 	}
 </script>
@@ -64,7 +102,8 @@
 <style lang="less" scoped>
 .m-repple{
 	height: 100%;
-	padding:0 0.06rem ;
+	padding:0 0.06rem;
+	box-sizing: border-box;
 }
 .m-list{
 	padding-bottom: 0.1rem;

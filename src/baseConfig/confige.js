@@ -7,6 +7,7 @@ const SONGLISTIP="http://www.minlu.shop:3000/music/musics"
 const SEARCHIP="http://www.minlu.shop:3000/music/search"
 const SONGERIP="http://www.minlu.shop:3000/music/singer"
 const RANDOMIP="http://www.minlu.shop:3000/music/random"
+const PHRASEIP="http://www.minlu.shop:1000"
 
   export default
   {
@@ -14,5 +15,6 @@ const RANDOMIP="http://www.minlu.shop:3000/music/random"
     SONGLISTIP,
     SONGERIP,
     SEARCHIP,
-    RANDOMIP
+    RANDOMIP,
+    PHRASEIP
   }

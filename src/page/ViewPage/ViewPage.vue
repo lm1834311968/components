@@ -21,7 +21,7 @@
 				}, {
 					componentName: 'music-page'
 				}],
-				indexNow: 1
+				indexNow: 0
 			}
 		},
 		created() {

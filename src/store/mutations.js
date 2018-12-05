@@ -28,7 +28,7 @@ const mutations = {
 		}
 	},
 	[types.removeFavoriteList](state, itemDetail) {
-		let _index = canRemoveList(state.songList, itemDetail)
+		let _index = canRemoveList(state.favoriteList, itemDetail);
 		state.favoriteList.splice(_index, 1);
 		window.localStorage.setItem("favoriteList", JSON.stringify(state.favoriteList));
 	},

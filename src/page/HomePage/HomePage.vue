@@ -21,13 +21,12 @@
 			return {
 				swiperOption: {
 					pagination: '.swiper-pagination',
-					loop: true,
 					touchAngle:20,
+					touchRatio:2,
 					on: {
 						slideChangeTransitionEnd: this.chooseIndex
 					}
 				},
-				subName: ['推荐','励志','爱情','人生','伤感','英文','唯美'],
 				subName: [{
 					name:'推荐',
 					type:0
@@ -54,9 +53,11 @@
 				indexNow: 0
 			}
 		},
+		created(){
+			this.lazyLoadIndex();
+		},
 		mounted() {
 			this.mySwiper = this.$refs.mySwiper.swiper;
-			this.lazyLoadIndex();
 		},
 		methods: {
 //			getData() {
@@ -76,7 +77,10 @@
 				this.mySwiper.slideTo(index);
 			},
 			chooseIndex() {
-				this.indexNow = this.mySwiper.activeIndex;
+				debugger
+				if(this.mySwiper){
+					this.indexNow = this.mySwiper.activeIndex;
+				}
 			},
 			lazyLoaded(index) {
 				if(!this.indexs[index]) {
@@ -109,7 +113,7 @@
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 0.4rem;
+		top: 0.5rem;
 		bottom: 0.6rem;
 		.swiper-container {
 			height: 100%;

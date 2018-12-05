@@ -163,7 +163,7 @@
 		align-items: center;
 		text-align: center;
 		font-size: 0.12rem;
-		line-height: 0.16rem;
+		line-height: 0.2rem;
 		.alphabet {
 			li {
 				padding: 0 0.1rem;

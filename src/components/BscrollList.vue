@@ -14,7 +14,11 @@
 	import Bscroll from 'better-scroll'
 	export default {
 		props: {
-			loaded: false
+			loaded: false,
+			bounce:{
+				type: Boolean,
+				default: true
+			}
 		},
 		data() {
 			return {
