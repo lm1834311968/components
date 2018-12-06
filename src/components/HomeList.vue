@@ -16,7 +16,7 @@
 		props:{
 			type:''
 		},
-		data(){
+		data(){                                                                                                                      
 			return {
 				subList:[],
 				loaded:true,
@@ -39,7 +39,7 @@
 				if(this.pageNum){
 					this.page=Math.floor(Math.random()*this.pageNum+1);
 				}else{
-					this.page=Math.floor(Math.random()*200+1);
+					this.page=Math.floor(Math.random()*60+1);
 				}
 				axios.get(this.url,{
 						params:{
@@ -103,6 +103,7 @@
 .m-repple{
 	height: 100%;
 	padding:0 0.06rem;
+	width: 100%;
 	box-sizing: border-box;
 }
 .m-list{

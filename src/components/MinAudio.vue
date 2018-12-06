@@ -8,7 +8,7 @@
 			@timeupdate='timeUpDateSliders'></audio>
 		<div class=""></div>
 		<div class="min-img">
-			<img :class="iconRun" :src="currentSong.img" />
+			<img :class="iconRun" :src="currentSong.img"  @click='addFavoriteList(currentSong)'/>
 		</div>
 		<div class="min-content">
 			<div class="min-sliders">
@@ -116,10 +116,22 @@
 			timeUpDateChange(percent){
 				this.$refs.audio.currentTime=percent/100*this.duration;
 			},
+			addFavoriteList(item){
+				this.setFavoriteList(item);
+				this.messages("添加到我的歌单");
+			},
+		  	messages(messaged) {
+			 this.$notify.success({
+			        title: '',
+			        message: messaged+'成功',
+			        showClose: false
+		        });
+	      	},
 			...mapMutations({
 				setSongPlay:"songPlay",
 				setCurrentSong:"currentSong",
-				setSongList:"setSongList"
+				setSongList:"setSongList",
+				setFavoriteList:"setFavoriteList"
 			})
 		},
 		computed: {
