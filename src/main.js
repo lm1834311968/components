@@ -21,7 +21,10 @@ Vue.config.productionTip = false;
 fastClick.attach(document.body)
 Vue.use(ElementUI);
 Vue.use(VueAwesomeSwiper);
-Vue.use(VueLazyload);
+Vue.use(VueLazyload,{
+  error:'http://data.rubaoo.com/YuLu/e7e12370-d026-4f4d-8341-5a6900f721701543321006334.jpg'
+
+});
 Vue.prototype.GLOBAL = global;
 
 /* eslint-disable no-new */

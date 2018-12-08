@@ -1,5 +1,6 @@
 <template>
 	<bscroll-list :loaded="loaded"  class="m-repple"  @listRefresh='listRefresh' @listLoad="listLoad">
+		<div :class="loadActive?'load-fresh active':'load-fresh '"><i class="iconfont icon-jiazai"></i></div>
 		<ul class="m-list" >
 			<li v-for="(item,index) in subList" :key='index' >
 				<article-item :subItem="item"></article-item >
@@ -21,7 +22,8 @@
 				subList:[],
 				loaded:true,
 				pageNum:false,
-				page:1
+				page:1,
+				loadActive:true
 			}
 		},
 		created(){
@@ -56,7 +58,7 @@
 					this.subList=res.data.data.result;
 					this.pageNum=res.data.data.totalItems
 				}
-				debugger
+				this.loadActive=false;
 				this.$nextTick(()=>{
 					this.loaded=!this.loaded;//为了触发滚动的better-scroll插件重置
 				})
@@ -114,4 +116,26 @@
 		box-shadow: 0 0.02rem 0.08rem 0.02rem #ccc;
 	}
 }
+.load-fresh{
+		display: none;
+	&.active{
+		display: block;
+	}
+	.icon-jiazai{
+		animation: cricle 2s linear infinite;
+		text-align: center;
+		font-size: 0.4rem;
+		padding: 0.06rem 0;
+		color: #38f;
+		display: inline-block;
+	}
+}
+	@keyframes cricle {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
 </style>

@@ -55,7 +55,7 @@
 			},
 			addfavoriteList(songDetail){
 				this.setFavoriteList(songDetail);
-				this.open6("添加到我的歌单");
+				this.messages("添加到我的歌单");
 			},
 			changeList(songDetail){
 				if(this.plusMinus){
@@ -70,7 +70,7 @@
 					}
 				}
 			},
-		   open6(messaged) {
+		   messages(messaged) {
 			 this.$notify.success({
 			        title: '',
 			        message: messaged+'成功',

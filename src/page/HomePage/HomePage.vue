@@ -33,13 +33,13 @@
 					type:0
 				},{
 					name:'励志',
-					type:8
-				},{
-					name:'爱情',
 					type:9
 				},{
 					name:'人生',
 					type:10
+				},{
+					name:'爱情',
+					type:8
 				},{
 					name:'伤感',
 					type:11

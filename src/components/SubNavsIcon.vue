@@ -25,6 +25,29 @@
 					code: 'music-recommend',
 					bgcolor: "#ff6364",
 					type:"DJ热歌榜"
+				}, {
+					icon: "icon-dianying",
+					name: '电影热歌',
+					code: 'music-dianying',
+					bgcolor: "#56c164",
+					type:"电影热歌榜"
+				},  {
+					icon: "icon-yingshi-yuanwenjian",
+					name: '影视金曲',
+					code: 'music-yingshi',
+					bgcolor: "#d46543",
+					type:"影视金曲榜"
+				}, {
+					icon: "icon-yinle-leqi-music-instrume",
+					name: '纯音乐',
+					code: 'music-yinle',
+					bgcolor: "#9c287d",
+					type:"纯音乐榜"
+				}, {
+					icon: "icon-gengduo",
+					name: '歌手',
+					code: 'music-singer',
+					bgcolor: "#906dc9"
 				},{
 					icon: "icon-cainixihuan",
 					name: '我的歌单',
@@ -40,12 +63,7 @@
 					name: '历史歌单',
 					code: 'music-song',
 					bgcolor: "#2acb9f"
-				} , {
-					icon: "icon-gengduo",
-					name: '歌手',
-					code: 'music-singer',
-					bgcolor: "#906dc9"
-				}],
+				} ],
 				nowIndex: 0
 			}
 		},
